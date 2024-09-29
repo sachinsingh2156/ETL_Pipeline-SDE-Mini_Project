@@ -3,15 +3,15 @@
 This repository contains code and configuration files for an Extract, Transform, Load (ETL) project using Google Cloud Data Fusion for data extraction, Apache Airflow/Composer for orchestration, and Google BigQuery for data loading.
 
 # Problem Statement
-It is tasked with creating a data pipeline to extract employee data from various sources, mask sensitive information within the data, and load it into BigQuery. Additionally, a dashboard must be developed to visualize employee data securely.
+It is tasked with creating a data pipeline to extract sales data from various sources, mask sensitive information within the data, and load it into BigQuery. Additionally, a dashboard must be developed to visualize sales data securely.
 
 ## Requirements:
 
-• Data Extraction: Extract employee data from multiple sources such as databases, CSV files, or APIs.
+• Data Extraction: Extract sales data from multiple sources such as databases, CSV files, or APIs.
 
-• Data masking: Identify sensitive information within the employee data, such as social security numbers, salary details, and personal contact information.
+• Data masking: Identify sensitive information within the sales data, such as phone number numbers, address, and personal information.
 
-• Data Loading into BigQuery: Design a process to securely load the extracted and masked employee data into Google BigQuery.
+• Data Loading into BigQuery: Design a process to securely load the extracted and masked sales data into Google BigQuery.
 
 • Dashboard Visualization: Develop a web-based dashboard using visualization tools (e.g., Google Data Studio, Tableau, or ca dashboards).
 
@@ -49,17 +49,17 @@ The architecture depicts an **ETL (Extract, Transform, Load) data pipeline** arc
 
 5. **Data Loading (BigQuery)**:
    - After the data has been masked and transformed, it is **loaded into Google BigQuery**.
-   - **BigQuery** acts as a cloud-based data warehouse, storing the transformed employee data.
+   - **BigQuery** acts as a cloud-based data warehouse, storing the transformed sales data.
 
 6. **Data Visualization (Looker)**:
    - The transformed data in BigQuery is then visualized using **Looker**.
-   - Looker (or other dashboarding tools like Google Data Studio) provides a **web-based dashboard** for visualizing employee data securely, ensuring sensitive data remains protected while allowing authorized users to view insights.
+   - Looker (or other dashboarding tools like Google Data Studio) provides a **web-based dashboard** for visualizing sales data securely, ensuring sensitive data remains protected while allowing authorized users to view insights.
 
 ### Data Flow:
 
-1. Python scripts extract the employee data and upload it to Google Cloud Storage.
+1. Python scripts extract the sales data and upload it to Google Cloud Storage.
 2. Cloud Data Fusion takes the stored data, applies transformations and masking to sensitive information, and prepares it for secure storage.
 3. Airflow orchestrates the flow between extraction, transformation, and loading processes.
 4. The masked and transformed data is loaded into BigQuery for efficient querying and analysis.
-5. Finally, Looker connects to BigQuery and provides visual insights into the employee data through customizable dashboards.
+5. Finally, Looker connects to BigQuery and provides visual insights into the sales data through customizable dashboards.
 
