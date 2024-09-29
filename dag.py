@@ -6,7 +6,7 @@ from airflow.providers.google.cloud.operators.datafusion import CloudDataFusionS
 
 default_args = {
     'owner': 'airflow',
-    'start_date': datetime(2024, 9, 25),
+    'start_date': datetime(2024, 9, 29),
     'depends_on_past': False,
     'email': ['m24cse033@iitj.ac.in'],
     'email_on_failure': False,
@@ -15,7 +15,7 @@ default_args = {
     'retry_delay': timedelta(minutes=5),
 }
 
-dag = DAG('employee_data',
+dag = DAG('sales_data',
           default_args=default_args,
           description='Runs an external Python script',
           schedule_interval='@daily',
@@ -29,8 +29,8 @@ with dag:
 
     start_pipeline = CloudDataFusionStartPipelineOperator(
     location="us-central1",
-    pipeline_name="etl-pipeline",
-    instance_name="etl-datafusion",
+    pipeline_name="sales-pipeline",
+    instance_name="sales-datafusion",
     task_id="start_datafusion_pipeline",
     )
 

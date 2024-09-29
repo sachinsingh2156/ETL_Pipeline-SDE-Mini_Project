@@ -1,0 +1,1001 @@
+Date,Customer_ID,Customer_first_name,Customer_last_name,email,phone_number,Order_ID,Product_ID,Product_Category,Quantity_Sold,Price_per_Unit,Discount,City
+2024-05-04,1843,Francisco,Oneal,lclements@example.net,6319067035,1,442,Books,3,1226.18,58.64,San Jose
+2024-05-05,1826,Jeffrey,Burch,phunt@example.org,3277462640,2,157,Groceries,1,240.79,13.78,Los Angeles
+2024-02-01,1996,Richard,Morgan,daltonramirez@example.net,9976898419,3,306,Beauty,5,356.41,39.26,Houston
+2024-04-23,1494,Rachel,Jones,amy53@example.com,8536297869,4,340,Clothing,6,1353.85,7.57,San Diego
+2023-11-16,1274,Nathaniel,Hines,linda22@example.com,7938621104,5,192,Sports,6,217.17,65.85,San Antonio
+2023-11-04,1991,Chad,Cook,tompineda@example.net,6602305375,6,189,Toys,4,778.36,77.31,Dallas
+2024-07-05,1099,Christopher,Jones,shuynh@example.com,2599359010,7,216,Toys,5,283.36,29.06,San Diego
+2023-12-28,1975,Tonya,Sanford,robinallen@example.net,1107577402,8,457,Toys,1,350.22,6.97,Phoenix
+2024-08-25,1288,Edward,Butler,thernandez@example.org,2076498085,9,338,Books,4,1296.16,4.19,Phoenix
+2024-06-29,1450,Laura,Nguyen,marymarshall@example.com,8010782177,10,269,Groceries,1,301.86,62.27,San Antonio
+2024-06-06,1944,Stacy,Rocha,jcherry@example.net,7767193128,11,325,Toys,6,1058.25,76.91,San Jose
+2023-10-16,1875,Carlos,Navarro,medinakathryn@example.com,1860629026,12,284,Groceries,9,527.48,15.15,New York
+2024-08-26,1538,Laurie,Morales,ashleyphillips@example.org,8186134239,13,462,Groceries,2,260.11,12.27,Houston
+2024-09-26,1070,Gabriela,Wood,austinpamela@example.net,5193159790,14,365,Sports,9,548.1,12.99,Los Angeles
+2024-04-16,1926,Carlos,Howard,jacksonbrandon@example.org,9732732000,15,378,Furniture,8,1495.63,29.99,Chicago
+2024-03-18,1844,Denise,Moore,gbarr@example.org,1687125312,16,287,Sports,9,540.96,89.63,San Jose
+2023-11-19,1921,George,Martin,jordanmoore@example.com,4930847994,17,436,Beauty,3,376.06,8.35,Dallas
+2023-11-12,1734,Bianca,Richards,njordan@example.com,8957032337,18,481,Clothing,3,491.76,10.39,San Jose
+2024-07-30,1051,Justin,Ray,xanderson@example.org,1110021148,19,317,Groceries,6,87.59,5.6,Houston
+2024-02-16,1296,Daniel,Colon,alyssa72@example.com,6944785421,20,127,Electronics,1,1050.97,61.83,Dallas
+2024-03-04,1731,Sarah,Lewis,taustin@example.org,5381106611,21,324,Toys,8,641.17,4.18,San Jose
+2024-09-15,1902,Renee,Garcia,karajones@example.org,5294727989,22,461,Books,3,1463.85,28.96,New York
+2023-10-11,1742,Tina,Sandoval,nancy22@example.net,9211630058,23,383,Electronics,5,1041.36,26.07,Dallas
+2023-10-12,1647,Chelsea,Welch,mannmonica@example.com,0105307885,24,242,Furniture,7,876.39,80.56,Philadelphia
+2023-12-11,1600,Robert,Myers,olawson@example.net,4585170175,25,384,Toys,6,696.23,8.83,San Jose
+2024-07-21,1486,Destiny,Holt,bryan61@example.com,0972017506,26,176,Furniture,4,242.18,81.34,Los Angeles
+2024-07-20,1383,Craig,Stewart,parkeramy@example.net,3228245450,27,196,Toys,5,483.21,28.45,Philadelphia
+2024-01-18,1770,John,Garcia,lyonslisa@example.com,1092847240,28,208,Sports,2,578.9,18.76,San Antonio
+2024-08-12,1653,Debbie,Serrano,joshua11@example.net,4950049594,29,273,Furniture,3,71.87,84.46,Chicago
+2023-10-08,1005,Whitney,Smith,petersjanice@example.net,7591102216,30,303,Electronics,3,1137.0,30.74,Phoenix
+2024-02-08,1616,Melanie,Walker,barbernicholas@example.org,3899204186,31,465,Groceries,6,208.68,88.25,Philadelphia
+2023-09-28,1518,Stephanie,Mcdowell,tyrone84@example.org,9485093046,32,238,Books,4,758.58,40.31,Houston
+2024-08-09,1026,Steven,Torres,emacdonald@example.com,1461382048,33,345,Furniture,3,1318.51,28.38,Chicago
+2023-12-07,1044,Donald,Harmon,eaguilar@example.net,5988067865,34,161,Groceries,7,1356.18,89.54,Philadelphia
+2024-05-04,1733,Michele,Mercer,davismadison@example.org,9701817908,35,476,Books,6,1274.18,3.42,Philadelphia
+2024-02-12,1831,Christopher,Dillon,lopezsuzanne@example.net,7391763919,36,487,Groceries,3,49.31,23.36,San Diego
+2024-08-16,1939,Gabriel,Morris,susan65@example.org,2688454605,37,495,Groceries,8,323.01,78.43,Phoenix
+2024-05-22,1702,Whitney,Goodwin,mark51@example.net,2838104297,38,495,Furniture,9,1159.87,71.85,Phoenix
+2024-06-09,1514,Janet,Booker,wallen@example.com,8816875450,39,449,Toys,8,1107.97,33.32,Phoenix
+2023-11-19,1537,Chad,Moses,amays@example.org,0858514435,40,307,Electronics,8,1133.93,68.97,Phoenix
+2024-05-03,1718,Nathan,Pierce,benjamin08@example.com,1125028147,41,413,Groceries,2,1152.18,54.3,Dallas
+2024-06-26,1232,Joseph,Harris,mowen@example.net,2943744854,42,312,Toys,4,894.23,17.22,San Jose
+2023-12-25,1600,Steven,Le,awilliams@example.net,4013848041,43,322,Sports,6,28.63,51.94,Phoenix
+2024-02-02,1813,Keith,Mcintyre,ruthallen@example.org,1209234022,44,409,Clothing,8,325.96,54.89,Houston
+2024-04-17,1932,Alexander,Duncan,ktran@example.com,4024053943,45,309,Toys,3,1014.19,31.81,Dallas
+2024-07-30,1905,Adam,Mitchell,melissa49@example.org,4106054983,46,368,Electronics,7,120.07,18.48,Dallas
+2024-04-08,1988,Kelly,Torres,mahoneykimberly@example.com,0282204009,47,490,Groceries,9,549.79,37.64,Chicago
+2024-08-14,1711,Sergio,Murphy,rwoods@example.com,7406068273,48,133,Furniture,5,1196.56,57.36,Houston
+2024-02-09,1963,Steven,Smith,yschneider@example.org,6997946353,49,308,Sports,1,20.0,18.78,San Jose
+2023-10-22,1054,Ray,Jones,mary29@example.com,7053826674,50,434,Toys,2,164.54,68.37,Houston
+2024-01-09,1005,Jessica,Wolfe,russellamanda@example.org,7168212589,51,186,Books,3,670.79,21.79,San Jose
+2024-09-02,1752,Kenneth,Wilson,richardssarah@example.net,1951029197,52,270,Electronics,5,1362.14,18.71,Los Angeles
+2024-06-08,1594,David,Cooper,fromero@example.org,4237829991,53,148,Furniture,5,990.69,23.73,Philadelphia
+2024-01-14,1530,Brittany,Mills,gmadden@example.net,9229892977,54,121,Groceries,4,548.98,62.11,Philadelphia
+2024-04-11,1008,Stanley,Roth,valeriecisneros@example.org,1389824244,55,408,Books,3,811.43,9.98,Dallas
+2023-12-08,1147,Lance,Wade,zjohnson@example.com,1675280840,56,227,Books,1,75.27,84.81,Los Angeles
+2023-12-31,1601,Nathan,Hall,pamela95@example.org,0039096797,57,193,Beauty,3,372.41,10.13,New York
+2024-02-10,1056,Terri,Shea,lisaharrell@example.com,5781098564,58,325,Sports,3,443.6,40.5,Dallas
+2024-09-05,1412,Aaron,Mccoy,ljackson@example.org,2923262857,59,373,Groceries,6,1257.64,13.95,New York
+2024-05-11,1128,Theresa,Wells,lorihughes@example.org,5503311330,60,264,Clothing,6,1147.23,27.77,Chicago
+2024-09-02,1412,Tiffany,Flores,ecastro@example.com,5498183488,61,298,Furniture,1,1127.53,81.93,San Diego
+2024-02-24,1715,Lisa,Hendrix,dwashington@example.net,0901953697,62,485,Furniture,9,490.77,68.08,San Jose
+2023-10-23,1409,Mark,Sullivan,denisegonzales@example.org,0054495525,63,319,Sports,5,36.55,40.76,San Antonio
+2023-12-30,1494,Jon,Malone,pruittjohn@example.net,7097202087,64,421,Electronics,9,191.07,11.64,Phoenix
+2024-06-04,1501,Tanya,Morgan,kristen15@example.net,4281701937,65,112,Furniture,4,913.99,80.32,Houston
+2024-05-16,1098,Brianna,Osborne,cindythomas@example.org,8313161317,66,181,Furniture,3,1051.74,19.4,Phoenix
+2024-08-09,1156,James,Taylor,nelsonronald@example.net,9759311518,67,346,Toys,8,47.1,77.87,Dallas
+2023-12-12,1092,Jack,Kim,johnsonwendy@example.com,5622897580,68,348,Furniture,9,1377.13,1.24,Phoenix
+2024-05-03,1765,Jeffrey,Roberson,nicholas67@example.com,8794558130,69,245,Books,2,168.44,45.06,Phoenix
+2024-08-01,1734,Jessica,Roberts,smithbrenda@example.com,2761504318,70,352,Sports,6,367.46,37.51,San Diego
+2024-01-06,1283,Tina,Carney,rmartin@example.org,9231562224,71,482,Books,7,1421.36,10.68,Philadelphia
+2023-11-15,1948,David,Carrillo,billy05@example.com,8617174916,72,191,Furniture,6,1011.03,58.81,Houston
+2024-03-31,1168,Amber,Williams,wflowers@example.org,3182934540,73,160,Beauty,8,1067.17,11.0,Houston
+2024-02-14,1280,Paul,Martin,lpollard@example.org,8326199560,74,122,Toys,6,446.18,32.15,Phoenix
+2024-04-02,1553,Ryan,Ellis,mmoody@example.org,7696620705,75,145,Clothing,8,774.24,86.06,Dallas
+2024-05-25,1729,Gloria,Mcclure,rhondamorton@example.org,1464771363,76,271,Furniture,5,982.98,56.73,Los Angeles
+2024-01-09,1547,Jimmy,Park,yvelasquez@example.com,4997790100,77,352,Groceries,3,342.34,15.57,New York
+2024-04-18,1297,Norman,Robertson,dalton29@example.com,8399325413,78,283,Furniture,4,83.17,60.01,San Antonio
+2024-08-23,1842,Danielle,Rios,santiagoshannon@example.net,0214680651,79,446,Furniture,3,1322.99,13.2,New York
+2024-04-20,1250,Kevin,Williams,keithevans@example.com,7082831417,80,309,Electronics,7,1211.4,32.87,San Jose
+2024-07-28,1105,Stephen,Martinez,pwilson@example.org,4255699755,81,343,Furniture,7,1305.38,35.1,Dallas
+2024-09-05,1986,Donald,Eaton,debrarodriguez@example.com,2715695805,82,461,Groceries,8,259.35,10.35,New York
+2024-09-04,1818,Christopher,Davis,llawson@example.com,5944290119,83,194,Books,5,1008.46,74.7,San Jose
+2024-06-16,1926,Daniel,Novak,deborahdennis@example.net,8491997653,84,353,Beauty,8,110.42,8.6,Los Angeles
+2024-04-01,1135,Joseph,Herrera,gary60@example.org,6213990572,85,274,Furniture,2,855.53,6.7,Phoenix
+2024-02-05,1707,Carl,Stevens,jamieortiz@example.org,3185118963,86,414,Toys,1,1196.43,60.16,Phoenix
+2024-06-04,1886,Jessica,Garza,mdavis@example.net,6312107380,87,241,Groceries,5,392.21,59.18,Philadelphia
+2024-01-23,1467,Karen,Vasquez,tsmith@example.org,2913684046,88,324,Toys,3,1223.24,43.28,Phoenix
+2024-05-08,1186,Jamie,Cross,holly12@example.net,6924385731,89,405,Clothing,4,1022.0,75.99,San Antonio
+2024-03-03,1223,Tammy,Glenn,andres02@example.com,3485441748,90,168,Toys,6,997.03,66.84,Dallas
+2024-09-25,1480,April,Trevino,gallen@example.net,2720253838,91,170,Sports,9,934.89,82.6,San Diego
+2023-10-25,1550,Alan,Walsh,ggonzalez@example.org,7970642689,92,278,Beauty,8,60.9,71.4,Philadelphia
+2024-01-26,1901,Paula,Burke,jonesandrea@example.org,2725470378,93,454,Clothing,1,425.85,3.3,New York
+2023-09-30,1122,Brian,Torres,ojones@example.net,3795858345,94,321,Beauty,3,443.39,63.84,Phoenix
+2024-04-11,1177,Michael,Hickman,anthonyjones@example.org,2090511637,95,326,Electronics,3,225.93,18.73,Chicago
+2024-01-02,1181,Alexandria,Herman,gedwards@example.com,9802750159,96,338,Sports,6,1061.06,28.95,San Diego
+2023-11-03,1414,Andrew,Fisher,potteredward@example.com,8260689738,97,268,Books,2,147.9,75.0,San Jose
+2023-12-09,1376,Leslie,Pace,christopher59@example.org,0412425537,98,231,Books,6,1408.76,21.11,Dallas
+2024-09-26,1693,Erik,Morris,rebeccajenkins@example.org,4773083872,99,164,Beauty,5,1032.83,42.19,Phoenix
+2024-05-03,1191,Dawn,Tyler,jenniferlevy@example.net,2325537034,100,385,Clothing,1,985.14,20.11,Phoenix
+2023-10-07,1774,Kimberly,Russell,powellwilliam@example.org,4185756561,101,222,Furniture,8,700.3,50.5,San Diego
+2024-02-15,1233,Patrick,Austin,scottbailey@example.com,2623736103,102,325,Electronics,1,1007.34,13.1,New York
+2024-09-24,1716,Benjamin,Thompson,owenpatricia@example.com,0087719514,103,396,Books,6,1322.97,47.16,Dallas
+2024-05-03,1180,David,Lopez,collinscrystal@example.net,4878277987,104,173,Furniture,1,1375.08,38.13,Chicago
+2023-09-29,1457,David,Park,bdonovan@example.net,1792591551,105,242,Furniture,3,1191.09,87.65,Houston
+2024-03-26,1764,Jonathan,Gomez,georgecohen@example.org,0686205745,106,385,Toys,9,187.37,4.08,Los Angeles
+2024-07-14,1441,Joseph,Williams,erinmoore@example.net,2653370992,107,214,Toys,3,1445.37,15.33,Dallas
+2024-09-17,1981,Daniel,Sutton,williamfarmer@example.com,2172711426,108,443,Electronics,1,236.53,28.8,San Antonio
+2024-01-09,1381,Jo,Cook,nancypatton@example.net,4487649136,109,296,Sports,8,134.05,36.22,Houston
+2023-12-21,1356,Nicholas,Hurst,marshstephen@example.org,9796707523,110,496,Sports,2,235.73,49.55,Houston
+2023-11-17,1836,Christina,Daniels,andersonmeghan@example.com,1503874703,111,347,Furniture,7,1198.89,87.55,San Jose
+2024-03-14,1501,Bradley,Meyer,justingalloway@example.com,7752834535,112,437,Furniture,4,980.37,68.93,New York
+2024-02-29,1864,Heather,Martinez,stephen20@example.com,5459401397,113,208,Toys,3,1259.65,75.36,San Antonio
+2023-10-16,1747,Paul,Lam,wagnerantonio@example.com,5311832678,114,149,Clothing,8,451.17,70.26,Phoenix
+2024-02-11,1402,Shannon,Harris,carolcasey@example.net,0421991895,115,459,Groceries,5,133.07,59.14,Houston
+2024-03-08,1223,Nancy,Lambert,gmcneil@example.org,3032066562,116,279,Books,5,763.86,10.42,San Antonio
+2024-07-28,1183,Chelsea,Schultz,joseph58@example.org,4880018216,117,263,Furniture,1,309.95,67.43,Dallas
+2023-10-24,1957,Haley,Conner,xhess@example.org,5271523325,118,191,Toys,6,466.57,4.29,San Diego
+2024-06-01,1002,Eric,Bailey,allison70@example.com,3742208991,119,100,Toys,3,61.3,51.51,Los Angeles
+2024-01-31,1710,Tami,Hill,angela80@example.com,6402339911,120,206,Groceries,3,148.17,30.55,Los Angeles
+2024-08-22,1583,Laura,Ferguson,atkinsonpriscilla@example.net,1737715130,121,389,Electronics,8,317.58,34.36,San Diego
+2024-03-22,1143,Daniel,Anderson,douglasgardner@example.org,0543710980,122,428,Toys,1,927.49,68.42,San Diego
+2024-02-20,1304,Kyle,Morrison,debra72@example.net,5030487088,123,220,Groceries,9,968.21,34.39,Phoenix
+2024-05-27,1877,Jennifer,Edwards,elizabethchristian@example.net,1558039941,124,498,Groceries,9,1315.67,86.25,Philadelphia
+2024-08-19,1745,Dustin,Jones,damongreen@example.com,6036587408,125,238,Electronics,4,1170.39,65.09,New York
+2024-05-19,1580,Casey,Reeves,conleyjonathan@example.net,2435091229,126,471,Books,5,174.95,88.06,Chicago
+2024-04-14,1699,Christopher,Doyle,dennismoore@example.org,3790618165,127,418,Beauty,5,701.11,39.22,Houston
+2024-07-11,1831,Brian,Price,williamharris@example.org,0485572976,128,324,Books,9,1457.42,22.07,Dallas
+2024-02-10,1763,Shane,Flores,jennifer63@example.net,9163238287,129,257,Toys,8,1369.55,21.81,Houston
+2023-11-22,1736,Frank,Johnson,monique66@example.org,6112800027,130,184,Furniture,2,412.7,20.13,San Diego
+2023-10-21,1393,Nicholas,Higgins,ovelazquez@example.net,0275755526,131,344,Beauty,8,350.69,20.0,Houston
+2023-10-14,1541,Thomas,Osborne,jeffreyjones@example.net,7986629036,132,480,Furniture,2,211.66,23.48,New York
+2024-08-05,1202,Christopher,Cantrell,marshalltoni@example.org,6960202853,133,450,Clothing,2,1383.45,45.33,Philadelphia
+2024-01-16,1450,Edward,Moody,ugarcia@example.org,6986485791,134,121,Furniture,8,1162.62,35.34,Chicago
+2023-10-18,1009,Matthew,Mcfarland,turnerjeffrey@example.net,8243187736,135,358,Books,9,1253.12,86.54,Los Angeles
+2024-04-16,1213,Darryl,Obrien,barbara63@example.com,5437671083,136,161,Sports,8,955.69,19.32,Phoenix
+2023-10-26,1472,Jeffery,Small,garciaamy@example.net,4682495224,137,289,Books,2,250.99,56.58,Philadelphia
+2024-01-08,1581,Barbara,Martin,jordanroy@example.com,8915108565,138,203,Groceries,5,1162.89,65.27,San Jose
+2024-09-15,1250,Aaron,Cannon,butlermichael@example.net,1820285263,139,466,Furniture,9,967.05,49.54,San Antonio
+2023-10-16,1689,Rebecca,Mack,jaclyn46@example.com,6369546553,140,104,Books,9,838.54,61.62,New York
+2024-03-12,1129,Cynthia,Lopez,duranrobert@example.net,4920315863,141,447,Toys,8,685.44,34.36,Phoenix
+2024-04-19,1536,Haley,Chung,jamie87@example.net,3483236698,142,232,Groceries,4,1445.7,55.16,Dallas
+2024-01-11,1765,John,Morris,jespinoza@example.net,7166549985,143,355,Groceries,2,53.1,43.31,New York
+2023-10-14,1889,Marvin,Vaughn,knappjonathan@example.org,5690428589,144,147,Sports,4,166.72,28.56,Phoenix
+2024-09-09,1680,Michael,Ibarra,wbender@example.net,9001854059,145,420,Books,8,221.04,76.13,San Jose
+2023-12-04,1819,Vincent,Kent,hoodtimothy@example.org,5283009879,146,328,Books,2,1147.07,82.21,Los Angeles
+2024-08-07,1292,Megan,Taylor,hschmidt@example.com,8286117894,147,418,Books,2,151.45,62.76,San Jose
+2024-07-29,1302,Natasha,Mayer,micheal95@example.com,0395824149,148,134,Clothing,3,900.45,78.79,San Diego
+2024-08-23,1327,Charles,Lee,ljackson@example.com,8507151972,149,179,Groceries,4,118.67,28.09,Houston
+2024-09-25,1553,Jasmine,Rios,callahangloria@example.org,1340946684,150,325,Clothing,9,1400.13,87.86,San Diego
+2024-09-15,1888,Paul,Medina,riverajessica@example.org,8987752857,151,127,Clothing,2,173.79,68.36,Houston
+2024-03-10,1283,Daniel,White,nmarshall@example.net,8650801409,152,171,Books,5,684.34,46.3,Philadelphia
+2024-05-02,1673,Julia,Perez,sheri18@example.org,2273031598,153,108,Sports,9,334.79,69.21,Los Angeles
+2024-03-20,1039,Megan,Moore,simmonsjessica@example.net,9671917441,154,310,Groceries,9,125.1,59.37,Chicago
+2024-09-15,1714,Angel,Brewer,baileybenjamin@example.net,7445447317,155,342,Clothing,6,1474.94,63.48,Dallas
+2024-07-14,1098,Ashley,Harper,meyerdaniel@example.com,1634986259,156,441,Books,8,432.49,79.1,Los Angeles
+2024-07-16,1762,Jennifer,Smith,michael58@example.org,0806635901,157,310,Furniture,8,558.09,79.39,Los Angeles
+2024-02-16,1410,Kimberly,Guzman,jeffreyferguson@example.com,4697069034,158,354,Sports,8,1161.59,83.01,San Jose
+2024-09-22,1464,David,Andrews,matthewyoung@example.com,7559421083,159,224,Toys,2,186.75,31.28,Los Angeles
+2024-09-18,1614,Denise,Pierce,paulanorton@example.net,5744381657,160,209,Beauty,2,524.94,26.77,Dallas
+2024-08-11,1758,Douglas,Martinez,ebrady@example.com,7170898547,161,254,Electronics,6,1386.39,59.03,San Jose
+2024-02-12,1926,Lisa,Kelly,douglas87@example.com,1413216625,162,318,Beauty,9,1292.31,43.96,Chicago
+2024-04-09,1323,Jennifer,Benton,jason62@example.net,3649376835,163,488,Clothing,7,1459.45,69.85,Los Angeles
+2023-11-05,1439,Marissa,Ingram,reidamber@example.org,3361135903,164,117,Furniture,9,879.17,59.9,Los Angeles
+2024-01-09,1455,Darrell,Chavez,pachecojacqueline@example.org,4052675754,165,381,Clothing,7,603.52,68.22,San Jose
+2023-11-01,1497,Carol,Hull,stephaniesoto@example.com,8182760645,166,393,Electronics,4,930.87,30.78,San Antonio
+2023-10-08,1594,Margaret,Holloway,allenford@example.com,7024753782,167,438,Toys,7,877.86,5.41,Houston
+2024-07-05,1620,Lisa,Barker,ericwang@example.com,7050362617,168,479,Groceries,7,234.1,64.15,Philadelphia
+2024-07-09,1429,Alison,Thomas,hhernandez@example.org,9968934604,169,422,Books,3,1114.73,68.93,Dallas
+2023-10-29,1200,Andrea,Graham,vanessa73@example.org,9428264766,170,470,Toys,3,690.64,65.72,Philadelphia
+2024-01-30,1052,Megan,Johnson,roweariel@example.org,5839312542,171,425,Electronics,4,1430.58,2.01,New York
+2024-08-13,1484,Teresa,Garza,lhowe@example.net,5490663237,172,102,Electronics,7,528.62,88.47,Houston
+2024-09-14,1011,Justin,Brown,bjordan@example.org,9268368776,173,295,Electronics,5,486.97,8.68,Houston
+2024-08-17,1346,Misty,Santos,james27@example.net,7042339278,174,268,Groceries,5,364.54,75.95,San Jose
+2024-09-08,1290,Juan,Mclean,salazarmegan@example.org,5868875092,175,461,Clothing,6,411.72,6.36,San Diego
+2024-06-20,1808,Leslie,Peters,russell07@example.net,5893483396,176,349,Beauty,5,966.53,37.1,New York
+2023-10-05,1286,Nicholas,Richardson,dodsonrandy@example.com,6122343535,177,353,Sports,3,848.28,77.94,Philadelphia
+2024-03-11,1344,Amanda,Meadows,andrea65@example.net,4667210206,178,217,Books,7,538.85,7.64,Philadelphia
+2024-06-17,1341,Justin,Swanson,travisharmon@example.com,7747351835,179,435,Books,3,425.45,19.0,Houston
+2023-10-16,1329,Melissa,Stafford,davisjason@example.com,5157979495,180,444,Groceries,2,265.66,2.29,Dallas
+2024-07-24,1052,James,Hall,deannajacobson@example.net,0281552438,181,310,Toys,5,1131.1,69.37,Phoenix
+2023-11-14,1893,Kendra,Kane,wramirez@example.net,3956661239,182,192,Books,1,27.02,47.72,Phoenix
+2024-04-22,1145,Felicia,Torres,margaretglover@example.org,7815120715,183,156,Furniture,4,882.78,45.97,San Diego
+2024-07-16,1308,Roberto,Luna,kelly52@example.net,7276886472,184,484,Clothing,2,1348.74,38.93,Philadelphia
+2023-11-01,1982,Annette,Keller,onealshawn@example.net,3968223073,185,302,Electronics,5,727.38,19.23,Los Angeles
+2024-02-25,1336,Ronald,Small,trussell@example.com,8581227056,186,199,Sports,3,864.14,87.87,Phoenix
+2023-11-09,1378,Brianna,Hood,andersonjohn@example.net,4930270988,187,199,Toys,8,227.58,85.64,Dallas
+2024-07-31,1279,Michael,Myers,zmyers@example.org,4347430285,188,130,Toys,8,403.2,14.59,San Jose
+2023-10-06,1380,Barbara,Waters,tonya04@example.net,9942911776,189,440,Clothing,8,1197.78,68.12,San Antonio
+2024-06-07,1877,Pamela,Berry,stephanie23@example.com,4569804763,190,328,Groceries,7,636.12,78.58,San Jose
+2024-05-22,1833,Lauren,Smith,kyle65@example.net,7496696594,191,405,Electronics,7,118.25,59.33,Philadelphia
+2024-03-19,1749,Anthony,Mccoy,jacobreeves@example.net,4812576893,192,230,Clothing,5,1478.5,14.33,Los Angeles
+2023-10-15,1542,Andrea,Diaz,padillaeric@example.org,0610644194,193,423,Groceries,7,1392.33,52.36,San Diego
+2024-07-20,1292,Chad,Garcia,christinejones@example.net,5380221573,194,137,Electronics,8,716.34,83.21,San Diego
+2024-08-16,1950,Kimberly,Edwards,warneranthony@example.net,4896622953,195,400,Beauty,8,1196.45,69.26,Dallas
+2024-03-17,1033,Alexandra,Page,nicholasdillon@example.org,5922035045,196,378,Electronics,2,816.96,76.23,Dallas
+2024-04-26,1662,Kimberly,Cuevas,joyceduncan@example.net,4433964045,197,280,Groceries,4,435.12,74.34,San Diego
+2024-04-08,1420,Ronald,Hunt,braunjennifer@example.net,6991112990,198,442,Groceries,9,1271.52,81.13,New York
+2024-07-14,1659,Dylan,Ortega,sandrapalmer@example.net,7600978364,199,347,Groceries,5,580.79,4.56,San Jose
+2023-11-28,1337,Alexander,James,qmartin@example.net,3820207567,200,142,Groceries,5,478.82,12.61,Chicago
+2024-08-20,1273,Kelly,Powers,harriskent@example.net,6723929154,201,328,Beauty,5,237.48,1.86,Philadelphia
+2024-06-15,1866,Gary,Williams,jwaller@example.net,3418611472,202,480,Electronics,7,445.58,61.31,Philadelphia
+2024-03-22,1255,Antonio,Cooke,jonvaughn@example.org,7001431618,203,371,Toys,9,861.29,39.36,Los Angeles
+2024-05-22,1132,Charles,Martinez,cassidy64@example.org,7671366297,204,194,Toys,3,843.17,45.11,San Antonio
+2023-12-10,1518,Jonathan,Dominguez,crystalcannon@example.com,3528985538,205,160,Furniture,1,111.73,70.63,Dallas
+2024-03-18,1525,Kimberly,Ramirez,williamsthomas@example.net,6244462951,206,159,Groceries,1,1126.14,29.96,San Antonio
+2023-11-04,1366,Roy,Maldonado,leonardyates@example.org,0058645880,207,401,Clothing,7,393.01,17.36,Chicago
+2024-06-05,1646,Courtney,Beard,fryejulie@example.net,9397527198,208,279,Clothing,1,182.0,34.99,Phoenix
+2023-10-13,1336,Jessica,Colon,ryangallagher@example.org,4874867155,209,232,Sports,5,492.37,72.56,Philadelphia
+2024-09-21,1416,Andrew,Klein,jonesedward@example.net,3388691952,210,489,Electronics,1,116.23,20.55,New York
+2023-09-30,1050,Steven,Flores,xcruz@example.org,9378647164,211,486,Clothing,7,491.95,38.4,San Diego
+2024-07-12,1027,Deborah,Fitzpatrick,thomastami@example.com,9151198889,212,154,Beauty,3,458.11,9.82,Chicago
+2023-10-10,1258,Rebecca,Salazar,ysnow@example.com,4078555367,213,489,Furniture,2,827.01,67.19,Chicago
+2023-12-12,1371,Sandra,Dean,chad59@example.com,2629426511,214,395,Furniture,9,193.92,66.21,San Diego
+2023-12-28,1978,Stephen,Griffith,nicholasspencer@example.org,7000245258,215,169,Beauty,3,173.24,56.95,Houston
+2024-05-27,1144,Patrick,Reyes,hpotter@example.net,1272612395,216,149,Groceries,4,304.49,56.85,Phoenix
+2024-08-12,1537,Samuel,Doyle,zachary95@example.org,8168837022,217,130,Beauty,9,504.22,89.72,Philadelphia
+2024-03-29,1417,Karen,Beasley,katherine46@example.org,2130443747,218,495,Groceries,4,662.03,11.16,San Antonio
+2024-01-05,1795,Jonathan,Torres,wilsontimothy@example.com,2655394686,219,459,Clothing,2,209.63,89.49,Houston
+2024-01-08,1398,Victoria,Baker,matthewstammy@example.net,7764140279,220,249,Furniture,9,925.37,49.33,Phoenix
+2024-09-16,1002,Beth,Dudley,danielle09@example.net,7756943519,221,349,Beauty,3,509.32,81.37,Chicago
+2024-03-13,1608,Tonya,Mcintyre,anna36@example.com,1108115568,222,100,Books,2,150.24,43.04,Houston
+2023-09-30,1532,Albert,Hammond,david23@example.net,6826249463,223,330,Books,7,716.77,12.3,Dallas
+2024-06-15,1467,Matthew,Mitchell,michaelcoleman@example.net,9068916360,224,218,Books,6,122.89,5.39,San Diego
+2024-03-15,1378,Jeffery,Strickland,johnmolina@example.org,6156603652,225,108,Sports,5,58.9,33.37,San Diego
+2024-06-12,1593,Stacy,Morris,usims@example.com,9002126548,226,214,Furniture,6,868.44,13.97,San Jose
+2023-10-05,1105,Cheryl,Murphy,nicholaslane@example.com,4946769803,227,139,Clothing,9,1404.94,14.58,New York
+2024-05-10,1322,Joshua,Miller,garciatodd@example.org,4799095648,228,300,Toys,5,603.35,56.28,Dallas
+2024-06-25,1596,Kimberly,Bell,tjones@example.net,9358443779,229,381,Sports,6,1431.5,89.4,Phoenix
+2024-06-07,1462,Jason,Green,pruittzachary@example.com,7868395960,230,334,Furniture,7,233.12,40.13,Los Angeles
+2024-05-08,1812,Ryan,Miller,ronald47@example.org,3654523477,231,132,Books,1,45.24,21.27,New York
+2023-11-22,1880,Nathaniel,Walker,duncanrenee@example.com,4901253694,232,125,Clothing,7,1217.46,87.53,Chicago
+2024-08-06,1737,Eduardo,Davis,fmarsh@example.net,9116302243,233,471,Electronics,6,68.86,43.87,San Antonio
+2023-12-14,1104,Jose,Moore,albertwatson@example.org,0738824327,234,396,Beauty,9,97.08,69.82,San Jose
+2023-12-02,1962,Jack,Owens,angela76@example.org,3181784783,235,380,Sports,9,1273.66,28.88,Dallas
+2024-01-14,1019,Ashley,Morrison,jonestracy@example.org,5336821663,236,298,Furniture,9,1350.81,47.57,Phoenix
+2024-06-30,1762,Elizabeth,Martin,amanda72@example.com,6703486589,237,165,Groceries,2,1268.38,51.69,Houston
+2023-10-05,1749,Jeffrey,Smith,chencatherine@example.org,9574285397,238,382,Groceries,2,344.18,33.81,San Jose
+2024-08-17,1455,Jacob,Henry,rhenderson@example.net,7083937547,239,459,Groceries,9,651.54,28.08,New York
+2024-07-09,1503,Jessica,Williams,ebaker@example.org,6587270364,240,186,Toys,8,781.05,56.06,New York
+2024-03-10,1947,Erica,Pace,amandadunn@example.org,5005926957,241,220,Sports,2,344.82,1.03,Chicago
+2024-09-03,1074,Kyle,Cannon,robertgillespie@example.org,1284539348,242,227,Electronics,1,70.73,66.76,San Jose
+2023-12-03,1104,Nicole,Adams,ray86@example.com,2583551372,243,206,Books,4,407.72,66.24,New York
+2023-12-29,1124,Jill,Stewart,csuarez@example.net,5857179452,244,225,Books,9,448.44,89.53,Phoenix
+2024-06-07,1505,Michael,Rodriguez,hpowell@example.org,4887068553,245,200,Electronics,8,1483.52,22.35,San Antonio
+2024-04-30,1340,Tanya,Perry,darren83@example.org,0709663299,246,493,Furniture,3,740.25,74.85,San Jose
+2024-06-13,1644,Jennifer,Rodriguez,timothyfrench@example.net,2719875967,247,261,Toys,9,123.15,62.04,New York
+2024-01-22,1493,Ashley,Chavez,gary07@example.net,8980798744,248,303,Clothing,3,625.96,34.75,Los Angeles
+2024-03-26,1463,Rhonda,Mercer,xjenkins@example.com,9698756060,249,410,Sports,5,1158.19,53.23,New York
+2024-02-02,1502,Olivia,Perry,garysolis@example.com,2642450858,250,159,Furniture,4,961.36,10.15,Houston
+2024-08-29,1768,Teresa,Johnson,zdavis@example.org,8469347056,251,464,Books,4,1295.2,78.68,Chicago
+2023-10-04,1614,Arthur,Pennington,garciachristopher@example.com,5033457859,252,376,Books,7,1013.16,44.36,Los Angeles
+2023-10-19,1136,Christina,Long,benjamin33@example.com,8905493957,253,337,Sports,5,639.09,12.29,San Antonio
+2024-08-11,1933,Felicia,Hawkins,adrianabrown@example.net,5807839499,254,211,Books,3,180.35,3.37,Houston
+2024-05-13,1751,Megan,Lewis,cwright@example.net,2264289645,255,375,Electronics,9,625.98,86.25,San Antonio
+2024-08-24,1372,Amy,Johnson,suzanne46@example.net,1417967641,256,320,Sports,3,1408.62,39.16,Phoenix
+2024-03-06,1916,Marcus,Smith,wpatel@example.net,8252442670,257,190,Beauty,5,502.07,2.17,New York
+2023-10-14,1467,Laura,Garcia,willie15@example.net,4798858304,258,222,Electronics,1,834.53,75.01,Phoenix
+2024-01-26,1003,Amy,Love,qelliott@example.com,4316587332,259,291,Toys,5,1402.4,63.23,Dallas
+2023-10-29,1896,Peter,Rose,robertospencer@example.net,1020745193,260,296,Sports,1,403.01,65.7,Dallas
+2023-10-25,1424,William,Fisher,barbara36@example.com,4494731010,261,244,Furniture,1,1361.34,63.38,San Diego
+2024-05-03,1981,Leonard,Kennedy,jennifernelson@example.com,9341644236,262,426,Furniture,6,1342.25,20.21,Los Angeles
+2024-04-24,1392,Steve,Morris,iwalker@example.org,1003515190,263,461,Books,5,779.31,10.4,Los Angeles
+2024-09-06,1399,Michael,Allen,james93@example.net,8575095122,264,494,Beauty,7,328.57,46.82,San Antonio
+2024-03-18,1526,William,Lynch,thomaspaula@example.org,2757628658,265,373,Groceries,6,315.37,25.61,New York
+2023-09-29,1905,Rhonda,Cox,bethyoung@example.org,3086201938,266,184,Sports,5,593.65,6.76,San Diego
+2023-10-15,1448,Victor,Ray,joshuanguyen@example.net,3720512671,267,174,Electronics,3,934.78,19.29,San Diego
+2024-09-21,1987,Amy,Rogers,deborahtaylor@example.org,0924341094,268,449,Electronics,4,480.07,10.64,Philadelphia
+2024-03-14,1967,Paul,Martin,jeanette81@example.com,9799553311,269,255,Furniture,6,137.78,86.07,San Diego
+2024-01-01,1350,Christopher,Nelson,ipatrick@example.org,7436869638,270,396,Clothing,9,101.0,6.16,Chicago
+2023-10-17,1916,John,King,james06@example.com,1243752396,271,456,Beauty,3,1011.53,86.94,Los Angeles
+2024-07-23,1964,Taylor,Smith,reynoldsclaudia@example.com,3310527817,272,195,Electronics,3,851.23,70.38,Dallas
+2023-11-21,1520,Catherine,Garcia,hwalsh@example.net,0660407373,273,354,Sports,4,917.5,32.71,Los Angeles
+2024-02-10,1895,Shane,Hall,aramirez@example.org,6344939708,274,182,Groceries,5,19.26,18.86,Los Angeles
+2024-02-22,1971,David,Mcgee,nicole47@example.net,3959124354,275,296,Clothing,8,1460.13,62.33,San Jose
+2024-05-13,1935,Douglas,Miranda,allison00@example.com,0236250489,276,214,Sports,8,705.78,82.57,San Antonio
+2024-06-22,1100,Christie,Webster,dbrennan@example.org,3198208438,277,264,Books,5,1045.81,75.76,Chicago
+2023-12-05,1555,Jonathan,Howe,vaughnscott@example.org,5018977296,278,263,Clothing,3,502.05,54.64,New York
+2023-10-14,1575,Brittany,Williams,sparkskathleen@example.org,6985523962,279,377,Groceries,8,761.29,75.35,San Antonio
+2023-12-10,1083,Daniel,Berry,wwilliams@example.com,7787965800,280,208,Books,2,1258.54,7.88,San Antonio
+2024-08-08,1094,Jonathan,Griffin,vmedina@example.org,0734249641,281,289,Furniture,2,1315.96,0.29,San Diego
+2024-08-02,1516,Kathy,Johnson,hillchristine@example.org,4449335228,282,351,Clothing,8,66.48,30.82,San Diego
+2023-12-07,1905,Sharon,White,burnskari@example.org,3705240802,283,293,Toys,2,534.82,66.59,New York
+2024-01-02,1888,Ann,Poole,blacktimothy@example.com,0774635800,284,179,Beauty,8,466.72,6.75,Houston
+2024-05-07,1485,Samantha,Martinez,andrea46@example.com,7050705848,285,195,Furniture,1,950.06,20.23,San Antonio
+2024-02-21,1470,Joseph,Nelson,sandra68@example.net,5406651074,286,137,Beauty,6,802.54,22.2,Chicago
+2024-07-17,1375,James,Smith,shawna09@example.org,2202129557,287,459,Clothing,5,1333.19,14.12,Dallas
+2024-06-16,1962,Sharon,Murillo,aguilarcristian@example.net,7857265132,288,193,Groceries,8,281.13,50.19,Houston
+2024-03-02,1222,Rebecca,Tran,rtaylor@example.com,8464466686,289,294,Sports,7,443.7,66.16,New York
+2024-09-14,1697,Christopher,Rivers,carrollnicole@example.com,6724257996,290,180,Electronics,9,1155.81,72.97,Phoenix
+2024-02-18,1155,Kendra,Anderson,jonathanpotter@example.org,4641246277,291,142,Beauty,8,750.59,37.35,Los Angeles
+2024-04-14,1242,Jordan,Rangel,hannahgraves@example.org,1180636584,292,150,Beauty,2,432.06,63.45,New York
+2024-02-28,1815,Russell,Dodson,piercescott@example.net,3427737191,293,440,Sports,2,1336.65,44.63,Chicago
+2024-04-27,1560,Emily,Nunez,jessicaolson@example.net,9643676529,294,134,Clothing,2,448.3,22.61,Chicago
+2024-05-22,1152,Rachel,Reyes,lisa90@example.com,8092415214,295,372,Books,3,779.68,22.08,San Antonio
+2023-11-06,1202,Ethan,Fields,spearssamantha@example.net,0119173886,296,412,Sports,1,400.58,49.93,New York
+2024-06-06,1810,Richard,Moreno,allenjason@example.com,4788804729,297,412,Groceries,1,108.69,83.96,Dallas
+2024-05-01,1541,Charles,Choi,ugraham@example.com,4835643615,298,447,Clothing,4,733.89,49.57,Houston
+2023-12-14,1204,Kara,Reynolds,jerome17@example.com,2736153172,299,151,Beauty,6,1141.81,41.29,Los Angeles
+2024-05-06,1950,Laura,Holt,codyhill@example.com,1104706955,300,177,Beauty,4,273.72,56.19,Houston
+2024-04-20,1637,Jackson,Grant,obrown@example.net,2840318761,301,333,Toys,2,439.34,42.73,Los Angeles
+2024-06-04,1964,Nicholas,Cunningham,ewarner@example.net,6506908833,302,401,Groceries,7,294.62,33.41,Los Angeles
+2023-10-26,1108,Monica,Nelson,eringriffin@example.com,9650097160,303,100,Groceries,1,1099.61,35.15,Los Angeles
+2024-01-31,1155,Maurice,Clark,jason66@example.org,1273302905,304,357,Furniture,2,814.6,76.02,Dallas
+2024-01-02,1161,Kimberly,Kim,jonesjay@example.org,2039449438,305,420,Clothing,4,1285.6,85.04,Houston
+2023-11-19,1433,John,Lyons,brandy82@example.net,0405033227,306,465,Clothing,7,892.55,57.88,Los Angeles
+2024-07-10,1911,Courtney,Scott,andrestewart@example.net,0648585016,307,264,Books,5,1323.82,24.84,Dallas
+2023-12-08,1680,Kenneth,Lindsey,snyderronald@example.net,3377193058,308,398,Books,2,695.81,3.53,Philadelphia
+2024-01-03,1933,Jodi,Orr,morrisbrian@example.org,8989090449,309,181,Books,6,184.89,58.57,Chicago
+2024-06-27,1320,Pam,Riley,klane@example.com,6466544914,310,217,Books,6,777.41,68.92,San Diego
+2024-08-23,1159,Mike,Wallace,grivas@example.org,5707604998,311,114,Beauty,2,1065.36,41.46,Los Angeles
+2024-07-02,1266,Brian,Phillips,phillipschristian@example.net,6170038179,312,378,Beauty,7,1344.98,82.1,San Antonio
+2024-08-28,1164,Edwin,Wilcox,heather27@example.org,6409373198,313,183,Furniture,2,628.44,43.88,Philadelphia
+2024-03-28,1650,Charles,Harrell,ghenry@example.net,3750733467,314,234,Furniture,1,797.31,68.93,San Jose
+2023-10-02,1234,Michelle,Garcia,hayneskelly@example.org,7026156643,315,341,Toys,6,715.87,65.85,Chicago
+2024-05-25,1420,Todd,Robles,alanbennett@example.org,3775579194,316,486,Sports,7,423.84,65.33,Philadelphia
+2024-03-18,1378,Jennifer,Wright,blaircatherine@example.org,8383058398,317,366,Sports,3,481.5,17.79,San Antonio
+2023-12-21,1624,Michele,Abbott,cooperdavid@example.com,5298434499,318,470,Books,6,1400.48,88.29,Phoenix
+2023-11-26,1238,Kathryn,Downs,heather36@example.net,6207337214,319,486,Clothing,7,1496.99,24.45,San Diego
+2023-11-30,1202,Willie,Nelson,eknight@example.net,9616386127,320,200,Furniture,2,611.77,54.25,San Antonio
+2023-10-25,1693,Melissa,Neal,andersengarrett@example.com,2578570107,321,204,Electronics,4,589.2,25.72,New York
+2024-09-10,1736,Shelly,Moore,jhorton@example.com,2501876478,322,295,Books,4,1113.17,28.56,San Jose
+2024-03-16,1396,Kimberly,Cunningham,thompsonmatthew@example.org,1297124697,323,449,Beauty,3,411.81,52.23,San Diego
+2023-10-12,1343,Jennifer,Burke,caleb33@example.net,0260398832,324,352,Books,8,1335.9,41.53,Philadelphia
+2024-06-22,1933,Raymond,Wilkerson,donaldwarren@example.org,0875178141,325,290,Sports,5,503.28,33.05,New York
+2024-08-25,1253,Diane,Burton,rachelwhite@example.net,2675977717,326,324,Furniture,3,1326.79,18.47,Houston
+2023-11-17,1079,Charles,Garcia,daniellewalker@example.org,6468836631,327,356,Electronics,5,1240.91,18.01,Dallas
+2024-05-17,1807,Tiffany,Daniels,gwerner@example.org,3455697798,328,498,Furniture,2,895.56,15.61,New York
+2024-02-10,1066,Justin,Long,johnsonallison@example.org,5787630158,329,333,Groceries,8,429.56,68.95,Los Angeles
+2024-02-21,1021,Kevin,Allen,martinezconnie@example.com,5871884360,330,486,Groceries,6,640.93,42.58,Dallas
+2024-04-18,1106,Kyle,Wood,samuel27@example.net,5465488883,331,439,Beauty,9,641.3,5.55,Philadelphia
+2024-03-04,1449,Daniel,Pitts,andersonanthony@example.com,3743021936,332,378,Toys,9,1032.0,8.14,Los Angeles
+2024-06-01,1017,Phyllis,Johnson,ericbullock@example.org,7487685053,333,293,Electronics,1,745.89,44.25,Houston
+2023-10-09,1528,Rebecca,Elliott,fmoon@example.org,1690567879,334,234,Furniture,2,1341.32,69.78,Phoenix
+2024-03-09,1076,Shannon,Fox,cindykelly@example.org,3701405787,335,366,Books,1,1224.88,41.49,San Jose
+2024-07-10,1272,Jennifer,Blair,adrianhenderson@example.org,7657813702,336,284,Electronics,4,1361.1,25.08,San Diego
+2024-02-26,1875,Don,Avila,jessica96@example.net,2091132760,337,186,Sports,9,813.2,24.03,San Diego
+2024-03-17,1663,Kathleen,Myers,joshuacobb@example.org,6892512744,338,391,Books,5,1271.53,51.43,Los Angeles
+2024-01-04,1528,John,Rice,christopher63@example.net,4717424516,339,132,Sports,5,477.59,6.88,Houston
+2024-09-14,1484,Joshua,Kramer,brendatate@example.org,7956800363,340,235,Toys,1,1341.57,42.81,Dallas
+2024-07-18,1863,Lisa,Leon,carterkristine@example.org,1841416769,341,375,Sports,9,1123.76,78.91,Phoenix
+2024-02-02,1755,Brittany,Garcia,karencampbell@example.org,2446001256,342,403,Toys,4,484.86,6.97,San Antonio
+2024-06-03,1323,Kimberly,Smith,johnsonsusan@example.net,6760057289,343,355,Beauty,8,950.46,55.22,Philadelphia
+2024-04-28,1224,Paul,Mueller,jessica42@example.org,9819146624,344,146,Groceries,2,1301.55,40.43,Houston
+2024-03-11,1883,Shirley,Brown,perrybell@example.com,3505602973,345,119,Beauty,2,1040.73,47.95,Dallas
+2024-03-28,1093,Chelsea,Beck,brownbrian@example.com,5221772829,346,472,Electronics,7,353.61,77.34,San Diego
+2024-05-11,1353,Jesse,Tucker,cheryl69@example.org,5780703208,347,323,Beauty,7,313.04,87.63,Houston
+2023-12-12,1652,Beth,Norman,hamptonscott@example.com,5060226319,348,293,Clothing,9,10.14,33.52,San Jose
+2023-10-08,1770,Chad,Ponce,sarah90@example.net,5309991334,349,251,Books,9,1159.8,8.5,Houston
+2024-08-20,1536,Michael,Shelton,michael23@example.org,3783140728,350,135,Furniture,7,1057.09,7.63,San Diego
+2024-02-28,1392,George,Harris,kbrooks@example.org,9064249986,351,273,Beauty,6,922.66,43.95,San Jose
+2024-09-11,1478,Kelly,Padilla,harrellsonya@example.net,4487714868,352,171,Books,3,448.07,15.43,San Jose
+2024-01-31,1428,James,Cortez,kyleolson@example.org,4908381925,353,418,Beauty,8,939.41,6.81,New York
+2024-05-04,1311,Teresa,Pacheco,hharvey@example.net,5211684625,354,268,Furniture,5,283.84,15.99,San Jose
+2023-11-28,1235,Cassandra,Thomas,austinsmith@example.com,8437955060,355,281,Furniture,4,852.27,30.04,Philadelphia
+2023-09-28,1176,Adam,Cannon,baileyapril@example.org,5438979659,356,445,Toys,9,1304.96,33.68,Houston
+2023-10-31,1024,Heather,Jenkins,jonathanmeyer@example.net,8452734179,357,371,Groceries,2,671.36,80.24,San Diego
+2024-01-27,1560,Sandra,Porter,jasminreyes@example.com,0106372866,358,381,Furniture,5,1300.74,53.49,Phoenix
+2024-06-17,1774,Matthew,Porter,ugarcia@example.org,4948579559,359,425,Sports,2,342.92,58.78,Phoenix
+2024-09-14,1149,Kristie,Sanders,benjamin81@example.com,6965341356,360,364,Groceries,8,1407.28,15.81,Los Angeles
+2024-05-19,1695,Diane,Novak,qbyrd@example.org,2234775838,361,484,Beauty,2,358.27,36.91,Houston
+2023-10-31,1842,Wendy,Day,jennifer96@example.com,0882859825,362,154,Beauty,2,995.58,45.7,San Jose
+2023-10-06,1847,Joseph,Mccann,blankenshipthomas@example.com,7908573711,363,199,Books,1,1487.29,30.14,Dallas
+2023-11-21,1894,Gabriel,Pugh,meganparker@example.org,4170527392,364,126,Sports,9,807.05,54.17,Houston
+2023-10-27,1511,Brian,Young,mcoffey@example.org,6424900235,365,227,Sports,8,415.79,57.08,San Jose
+2024-07-21,1804,Douglas,Lindsey,qroberts@example.com,1155493231,366,334,Beauty,6,1136.54,55.01,San Antonio
+2024-04-04,1523,Cheryl,Le,vmitchell@example.com,7273475085,367,490,Books,6,1364.1,25.78,Philadelphia
+2024-09-17,1314,Theresa,Johnston,oblack@example.org,3933292981,368,358,Furniture,8,1299.02,8.92,Los Angeles
+2024-03-11,1908,David,Rogers,pbrown@example.net,5885358730,369,333,Books,2,574.26,42.25,San Diego
+2024-02-11,1671,Barbara,Caldwell,kristenmitchell@example.net,8673548406,370,495,Furniture,2,360.13,26.14,New York
+2023-11-10,1913,Eddie,Smith,maria38@example.net,8850829821,371,364,Clothing,5,256.62,85.7,Dallas
+2023-11-30,1625,James,Cline,sarahsmith@example.org,5336171585,372,311,Beauty,1,325.44,64.99,Houston
+2024-03-16,1203,Kyle,Fischer,edwardcarpenter@example.com,8149935661,373,447,Beauty,5,1245.64,78.36,San Antonio
+2024-05-03,1830,Edward,Reed,fwallace@example.org,0860198008,374,111,Clothing,9,247.27,43.51,San Antonio
+2024-05-18,1476,Fred,Costa,karen57@example.net,2897975913,375,463,Books,9,177.88,64.73,San Diego
+2024-07-28,1992,Raymond,Mcdonald,lisabarrett@example.org,7310247938,376,480,Sports,9,559.84,66.47,New York
+2024-08-31,1686,Stephen,Cox,rachel18@example.net,7187771878,377,430,Groceries,1,938.87,69.84,Philadelphia
+2024-09-10,1514,Edward,Krause,kingapril@example.net,8835144981,378,336,Groceries,7,298.7,44.84,Los Angeles
+2024-04-25,1682,Samantha,Warren,scott05@example.net,1732353746,379,138,Electronics,9,1414.11,68.32,Phoenix
+2024-09-10,1523,Eric,Carroll,rodriguezterri@example.net,2608057295,380,287,Clothing,8,1357.9,85.93,Houston
+2024-07-29,1857,Stacey,Thompson,kim81@example.net,7633005436,381,389,Clothing,9,1002.95,23.71,Los Angeles
+2023-12-17,1357,Annette,Washington,seancastillo@example.org,1528809788,382,331,Beauty,4,394.1,24.24,New York
+2024-07-28,1130,Eric,Chase,russell91@example.com,1292042006,383,166,Furniture,9,313.47,61.56,San Diego
+2024-04-02,1368,Kyle,Edwards,devinhenderson@example.org,8957400561,384,461,Sports,7,843.77,33.74,Philadelphia
+2023-10-12,1360,Kimberly,Fowler,wrichardson@example.org,6705008952,385,239,Sports,1,855.81,27.85,Houston
+2024-08-02,1219,Joel,Figueroa,vcoleman@example.net,9179804782,386,270,Electronics,9,459.04,10.65,San Antonio
+2023-12-19,1166,Cynthia,York,ruth84@example.com,9995132026,387,359,Toys,2,1088.24,44.77,Houston
+2024-05-07,1181,Brianna,Davis,davidscott@example.org,1083627675,388,108,Electronics,5,554.66,21.75,Philadelphia
+2024-06-15,1686,Karen,Harmon,danielwilliams@example.net,9695889215,389,227,Groceries,1,738.72,70.76,New York
+2024-06-11,1533,Loretta,Chavez,robertsonmark@example.org,8160755679,390,262,Toys,1,1009.68,86.25,Houston
+2023-12-17,1504,Tammy,Cox,michael72@example.org,1207260592,391,242,Beauty,9,631.29,82.88,Dallas
+2024-05-23,1868,Charles,Castillo,philipnguyen@example.org,8904018292,392,436,Books,1,1302.54,44.66,New York
+2024-06-17,1552,Lynn,Noble,peter62@example.org,3082231419,393,341,Groceries,3,81.97,39.04,Phoenix
+2023-12-28,1309,Abigail,Miller,jennifer93@example.net,0915281824,394,107,Electronics,6,181.69,47.31,Houston
+2023-12-15,1834,Ryan,Stewart,michelle18@example.org,1831549540,395,119,Sports,2,393.78,41.24,Chicago
+2024-04-02,1245,Wesley,Medina,sandra87@example.org,5093926411,396,301,Groceries,8,1236.72,27.26,Chicago
+2024-06-12,1622,Sean,Maldonado,parroyo@example.com,7258195931,397,192,Groceries,3,626.32,50.27,Phoenix
+2024-02-27,1328,Kathleen,Thompson,martinstephens@example.com,8018153086,398,292,Beauty,1,820.58,52.87,Philadelphia
+2024-03-14,1075,Laura,Young,kellyduke@example.org,2116440052,399,258,Sports,6,551.43,80.94,Houston
+2024-04-04,1261,David,Jacobson,baileyjorge@example.com,7835499737,400,260,Sports,4,835.2,80.18,San Diego
+2023-12-23,1952,Jonathan,White,david89@example.net,0731157596,401,174,Toys,3,898.82,64.84,San Jose
+2024-07-18,1507,Darrell,Pace,thompsonterri@example.com,0438165738,402,163,Furniture,7,138.06,3.92,Dallas
+2024-03-23,1287,Johnny,Cantu,jonesashley@example.net,7355490025,403,143,Beauty,5,103.37,74.07,San Jose
+2024-02-01,1245,Sandra,Scott,george66@example.com,9409842302,404,164,Clothing,7,515.43,27.17,San Diego
+2024-04-20,1239,Andrea,Waters,carmenrobbins@example.org,6274420555,405,203,Beauty,9,1037.53,76.44,San Diego
+2023-11-06,1519,Anthony,Branch,xchavez@example.com,9412376959,406,456,Beauty,6,1412.06,30.84,San Jose
+2024-07-10,1692,Kelsey,Jones,jacobsmith@example.net,8021277025,407,327,Beauty,5,1011.12,43.14,San Jose
+2023-11-03,1727,Cheryl,Vazquez,sandravang@example.net,1937394995,408,457,Electronics,7,1157.53,6.28,San Jose
+2024-02-10,1895,Jennifer,Turner,rebeccacarson@example.org,7623701652,409,276,Books,3,674.14,8.23,San Jose
+2023-12-06,1426,Marie,Patterson,shelly65@example.net,3050415723,410,227,Beauty,3,1103.84,60.15,San Diego
+2024-04-12,1399,Ashley,Grant,mary66@example.net,6592986513,411,466,Books,2,164.12,29.98,Los Angeles
+2024-07-05,1196,Nancy,Smith,tbarry@example.net,5673459861,412,163,Books,7,220.41,40.46,Philadelphia
+2023-10-26,1359,Stacey,Gonzalez,shawnday@example.net,6499836075,413,185,Clothing,9,1298.15,2.27,Dallas
+2023-11-19,1456,Susan,Stanton,davidjordan@example.com,9122559348,414,219,Beauty,8,466.72,53.66,New York
+2023-10-01,1939,Erin,Evans,pamelacarter@example.net,9962800609,415,178,Toys,2,202.63,37.96,New York
+2023-12-09,1532,Jonathan,Wilson,teresagreen@example.net,5787350714,416,178,Toys,6,60.05,46.34,Phoenix
+2024-01-16,1710,Larry,Torres,toddmelissa@example.org,8328470994,417,315,Sports,7,1320.75,44.15,Phoenix
+2024-07-30,1030,Scott,Dougherty,mark51@example.com,8205349115,418,438,Beauty,4,225.21,42.86,Los Angeles
+2024-08-15,1147,Robert,Hernandez,rachelsmith@example.net,0132290506,419,247,Beauty,1,898.02,70.0,Chicago
+2024-01-14,1126,Jodi,Brown,rwilliams@example.com,1851546898,420,392,Toys,5,953.81,66.49,Philadelphia
+2023-12-26,1882,David,Russell,jdurham@example.org,6592346133,421,478,Electronics,1,40.55,83.79,Los Angeles
+2023-11-27,1568,Julia,Caldwell,lori68@example.com,3974211170,422,296,Groceries,9,1159.71,65.86,New York
+2024-05-27,1742,Stephen,Scott,torresdenise@example.com,3559835523,423,154,Sports,8,1496.28,46.07,Los Angeles
+2024-02-25,1002,Kaylee,Roth,simpsonkim@example.net,6980517809,424,448,Electronics,9,1049.81,83.72,Dallas
+2024-05-14,1663,Natalie,Berry,clementsandrea@example.org,9174801361,425,465,Furniture,9,1157.55,43.38,Dallas
+2024-02-22,1000,Andrew,Morris,mholland@example.com,0590963357,426,497,Electronics,4,866.21,56.57,New York
+2023-12-28,1432,Morgan,Harding,popemichael@example.org,9444997529,427,482,Beauty,5,690.52,48.79,Philadelphia
+2024-03-24,1312,Andrew,Grimes,roymanuel@example.org,5849958705,428,318,Sports,8,355.7,1.0,Houston
+2023-11-06,1746,Rachel,Terry,jennifersmith@example.org,0747841930,429,278,Sports,5,1395.16,73.33,San Jose
+2024-05-08,1878,Jean,Cooper,lisawaller@example.com,1815747267,430,370,Groceries,5,792.81,13.93,New York
+2024-06-28,1479,Kelsey,Thomas,valerie33@example.com,9418572171,431,303,Books,1,710.95,61.83,Houston
+2024-08-29,1425,Danielle,Frazier,douglaslynch@example.com,1103555016,432,486,Books,6,1089.63,2.74,Dallas
+2023-10-24,1211,Tommy,Lawson,rhammond@example.com,8995653552,433,360,Beauty,7,1347.39,45.78,New York
+2024-06-08,1049,Dalton,Morris,johnhampton@example.net,0188600407,434,239,Electronics,5,1246.11,42.81,New York
+2024-09-12,1182,Joann,Arnold,longlauren@example.com,2087746913,435,124,Furniture,2,438.32,74.84,San Jose
+2023-11-10,1411,William,Barber,tiffanyhughes@example.com,7472697876,436,238,Groceries,2,100.78,54.64,San Diego
+2024-07-13,1626,Brian,Gomez,blackwilliam@example.org,6676710139,437,182,Beauty,5,333.65,21.56,Phoenix
+2024-07-26,1154,Mitchell,Bush,kevinlopez@example.net,7314235209,438,286,Sports,5,1232.77,77.48,Chicago
+2024-08-10,1901,Nancy,Stephens,joshua26@example.net,7727374032,439,240,Furniture,6,937.4,54.45,Los Angeles
+2024-05-24,1882,Pamela,Boyd,qsmith@example.com,6527133375,440,177,Books,1,545.09,16.68,Phoenix
+2023-10-10,1223,Justin,Hill,rhondarhodes@example.net,0479172048,441,405,Furniture,3,648.34,85.36,Los Angeles
+2024-09-18,1217,William,Hill,osbornevelyn@example.net,6520343347,442,264,Books,8,60.32,82.91,Phoenix
+2024-04-23,1507,Deborah,Yang,nadams@example.com,3508231175,443,360,Beauty,4,1462.22,41.19,Chicago
+2023-12-21,1474,Stephen,Hines,ambergolden@example.net,6666847895,444,125,Sports,1,243.5,74.4,Phoenix
+2023-11-16,1491,Todd,Torres,davisheather@example.org,5826212622,445,415,Toys,4,133.0,25.17,Dallas
+2024-06-01,1494,Mark,Day,stewartmichael@example.com,7366413884,446,404,Toys,9,574.35,13.09,San Antonio
+2024-09-21,1789,Donald,Tran,gregorypatel@example.org,6416754262,447,481,Sports,7,905.89,28.77,Dallas
+2024-07-22,1403,Edward,Jones,jameskim@example.net,4889774182,448,474,Beauty,3,52.76,54.28,Dallas
+2024-03-17,1116,Laura,Best,theresawerner@example.org,5215985144,449,450,Sports,1,424.06,73.04,Phoenix
+2023-10-20,1682,Christopher,Sanchez,charlespatrick@example.com,7027420773,450,485,Books,9,732.93,16.06,Philadelphia
+2023-11-07,1811,Matthew,Robertson,jacksonkenneth@example.com,2384499134,451,257,Electronics,8,663.71,50.43,Los Angeles
+2023-12-20,1360,Cole,Thomas,qhunter@example.net,2185067444,452,320,Books,4,793.14,60.9,Phoenix
+2024-03-24,1353,Felicia,Stewart,meghannelson@example.org,6017859792,453,352,Toys,8,146.57,55.2,San Diego
+2024-01-29,1078,Daniel,Wallace,margaretsanchez@example.net,8530175188,454,111,Electronics,2,169.23,51.17,Chicago
+2024-03-08,1055,Brandon,Rich,amandalane@example.net,2451982256,455,284,Groceries,9,843.14,46.74,San Diego
+2024-03-05,1768,Catherine,Woodard,chelsea00@example.net,7805160184,456,184,Beauty,3,230.11,22.28,San Jose
+2024-06-04,1549,Joel,Peterson,jamescooley@example.com,1305257027,457,482,Sports,7,943.48,22.19,Dallas
+2024-08-20,1711,Nichole,Moore,leebrandon@example.org,0199826065,458,379,Beauty,3,1250.45,12.13,San Antonio
+2023-10-25,1258,Desiree,Johnson,nathaniel06@example.com,3652068874,459,403,Books,7,89.78,77.09,Houston
+2024-04-08,1926,Daniel,Smith,steven34@example.com,2054069181,460,233,Beauty,5,735.35,27.21,Phoenix
+2024-04-26,1687,Cynthia,Noble,sarahhurley@example.org,3717894512,461,324,Furniture,7,1317.48,72.68,Phoenix
+2023-11-26,1104,Shannon,Wright,kellyruiz@example.net,0758822901,462,129,Groceries,8,1034.08,50.7,Los Angeles
+2024-04-09,1122,Mia,Wilkins,larry98@example.org,3463491222,463,293,Sports,3,460.62,33.12,Los Angeles
+2024-01-16,1062,Andrew,Oliver,wmccoy@example.org,1992796419,464,287,Toys,8,851.16,71.33,Philadelphia
+2024-09-08,1498,Jennifer,Kent,brian45@example.org,0948884898,465,461,Electronics,1,974.35,15.25,Houston
+2024-09-26,1404,Lisa,Macdonald,shelley78@example.net,0762073249,466,241,Electronics,9,670.5,69.9,Philadelphia
+2024-05-17,1835,Hannah,Wallace,michellesullivan@example.org,2517896014,467,393,Toys,7,1143.3,13.19,Houston
+2023-10-07,1141,Michael,Smith,danielobrien@example.org,5246708840,468,380,Electronics,7,124.77,3.95,San Antonio
+2024-04-08,1859,Michael,Tapia,calvin78@example.org,0842490244,469,354,Toys,8,1090.02,73.82,Dallas
+2024-03-01,1720,Matthew,Gray,edwinhodge@example.com,4750342564,470,444,Furniture,2,1023.52,76.34,Philadelphia
+2023-10-18,1662,Krista,Foster,christopherlevy@example.org,1166515466,471,100,Furniture,2,1249.59,73.1,Chicago
+2023-11-07,1603,Taylor,Campbell,charlesbarker@example.org,3586679033,472,465,Toys,8,728.9,17.68,San Diego
+2023-10-13,1832,Timothy,Harding,graybarbara@example.org,8564992363,473,414,Furniture,9,1088.0,29.61,San Jose
+2024-07-23,1648,Katelyn,Huff,dparker@example.com,3575449617,474,447,Groceries,9,1179.5,85.6,Dallas
+2023-11-19,1316,Erica,Mitchell,dominiqueleon@example.com,1942655087,475,422,Sports,3,417.84,63.67,Chicago
+2023-11-21,1079,Brenda,Watson,dkelly@example.net,6232072364,476,412,Furniture,5,953.11,52.0,San Diego
+2024-08-02,1261,Gavin,Collins,millerjorge@example.net,8561047977,477,402,Groceries,9,767.78,25.2,New York
+2023-10-19,1189,Gwendolyn,Mathis,sethturner@example.com,0832873224,478,345,Beauty,7,1333.53,62.53,Philadelphia
+2024-02-26,1653,Nancy,Jones,margaret96@example.org,2527215910,479,249,Beauty,8,677.26,26.81,San Diego
+2024-02-09,1485,Philip,Brown,babbott@example.org,7105225981,480,106,Clothing,1,280.6,74.33,Los Angeles
+2024-08-20,1610,Bryan,Duran,catherinebruce@example.org,0687740640,481,449,Electronics,6,496.59,2.46,Los Angeles
+2024-09-01,1529,Nicholas,Frey,stephen50@example.com,8638920781,482,483,Groceries,7,624.52,84.85,Philadelphia
+2023-12-19,1404,Thomas,Gibson,ohernandez@example.org,1339551790,483,379,Books,2,1190.87,6.03,San Diego
+2024-01-17,1487,Kevin,Hernandez,jason14@example.org,8512477256,484,197,Books,9,691.66,16.61,San Antonio
+2023-11-26,1288,Thomas,Crawford,owilkinson@example.net,5080922038,485,327,Toys,6,871.2,53.15,San Antonio
+2024-02-11,1603,Cassandra,Beck,hjones@example.com,1689445231,486,439,Groceries,5,63.84,45.89,San Diego
+2024-08-29,1605,Michelle,Kennedy,henry76@example.net,5232746174,487,348,Electronics,6,256.57,9.89,Los Angeles
+2024-03-29,1650,Shannon,Alvarado,kariconway@example.net,4604867917,488,102,Sports,1,1408.98,59.91,Houston
+2024-06-03,1901,Elizabeth,Robinson,amyers@example.net,7833035789,489,457,Toys,3,1168.1,43.05,Phoenix
+2023-11-12,1900,Connie,Patton,walkeramanda@example.net,3778126116,490,281,Groceries,8,1161.59,76.86,San Antonio
+2024-02-28,1981,Susan,Byrd,johnlambert@example.com,0109568307,491,342,Toys,6,1407.99,43.29,Dallas
+2024-04-12,1336,Craig,Morales,friedmantravis@example.net,3922029218,492,228,Toys,8,1151.99,83.29,Los Angeles
+2024-08-15,1778,Vernon,Smith,kenneth35@example.com,4916287128,493,274,Electronics,5,1431.29,76.18,New York
+2024-03-05,1555,James,Reilly,adammacdonald@example.com,0147219233,494,248,Furniture,3,375.82,37.54,Houston
+2024-02-29,1359,Brian,Barnett,frostjennifer@example.com,0795856162,495,246,Sports,9,336.99,30.41,San Jose
+2024-03-22,1580,Laura,Morton,turnerjoseph@example.org,3976658330,496,387,Books,9,76.24,52.84,Chicago
+2023-11-26,1025,Andrea,Howell,nicole49@example.com,3322781852,497,427,Clothing,4,310.92,6.22,San Antonio
+2024-01-17,1482,Holly,Nguyen,bowens@example.org,7160527059,498,102,Electronics,2,654.27,38.89,Philadelphia
+2024-01-08,1665,Andrea,Morris,daniellehill@example.org,5175936219,499,440,Books,9,441.44,5.49,Houston
+2024-06-27,1227,Melissa,James,michelle48@example.org,3927053116,500,431,Electronics,4,407.82,5.03,San Diego
+2024-05-30,1434,Rodney,Stevens,chloewheeler@example.net,2285539481,501,271,Toys,9,618.66,20.93,Chicago
+2023-12-29,1818,Elizabeth,Thompson,tinatrevino@example.com,9051208072,502,363,Books,5,455.32,73.53,Dallas
+2023-12-08,1697,Vincent,Watkins,djones@example.org,2992846151,503,427,Groceries,1,17.07,33.21,Phoenix
+2024-09-19,1266,Lisa,Hill,kimberly19@example.com,0603395268,504,127,Clothing,9,731.53,52.9,San Diego
+2024-07-16,1959,Amanda,Thomas,joshua14@example.org,0945034532,505,326,Beauty,5,338.23,48.46,San Antonio
+2023-11-16,1956,Christina,Pena,bwilson@example.net,4199857311,506,188,Furniture,6,145.42,15.74,Dallas
+2024-01-12,1482,Dylan,Harper,stephanie50@example.net,8580667711,507,377,Electronics,4,424.55,79.14,Chicago
+2024-04-03,1321,Maria,Todd,troberts@example.com,9588494617,508,207,Electronics,7,1250.45,18.67,Chicago
+2024-04-18,1306,Ann,Martin,nreyes@example.org,0132709465,509,335,Toys,9,262.94,85.7,San Jose
+2024-06-18,1067,Amanda,Gordon,james63@example.net,4048364736,510,350,Furniture,1,1356.66,11.01,Houston
+2024-07-23,1939,Henry,Deleon,brian22@example.net,8169239055,511,115,Beauty,4,1210.34,89.12,Phoenix
+2024-03-22,1925,Amanda,Phillips,colemanjay@example.com,2110080827,512,271,Books,5,1067.06,49.41,San Diego
+2024-01-18,1118,David,Blackburn,crystalreeves@example.org,3800529664,513,297,Books,9,724.87,76.03,Los Angeles
+2024-08-27,1253,Richard,Harper,ingrammegan@example.net,4951040096,514,207,Books,8,1244.54,19.44,Phoenix
+2024-07-26,1968,Cindy,Ayala,zmartinez@example.org,9381358452,515,460,Books,2,1017.81,65.2,Dallas
+2024-05-08,1923,Patrick,Johnson,morrisonrichard@example.org,5453466546,516,432,Beauty,1,1362.91,14.92,Dallas
+2023-12-03,1705,Jessica,Suarez,gordonjulia@example.org,8186240471,517,453,Clothing,6,1316.81,18.95,Philadelphia
+2024-09-03,1547,Jonathan,Fowler,watkinskathy@example.org,0179260656,518,246,Clothing,9,1491.85,67.14,Phoenix
+2023-10-31,1788,Gina,Dickerson,hharmon@example.net,1328393955,519,251,Electronics,6,967.09,27.94,Los Angeles
+2023-12-05,1169,Richard,Ward,ryanfoster@example.org,8917615618,520,291,Clothing,3,783.58,2.6,Chicago
+2024-05-22,1530,Zachary,Bailey,katherine39@example.net,9215636424,521,334,Books,4,1101.65,42.07,San Diego
+2024-01-30,1279,Tyler,Moore,christopher34@example.com,3583543734,522,276,Groceries,2,650.69,89.63,Dallas
+2024-07-08,1673,Christopher,Watson,owright@example.com,8490859102,523,491,Beauty,1,623.96,2.91,San Antonio
+2024-03-13,1175,Emily,Smith,michael71@example.org,5870791578,524,341,Electronics,1,207.04,41.5,San Antonio
+2023-11-27,1495,Matthew,Mcdaniel,hebertvalerie@example.com,6705155782,525,231,Toys,4,338.87,86.92,Phoenix
+2023-12-11,1599,Michael,Riddle,stephanie38@example.org,2879236190,526,370,Toys,8,1449.85,38.11,San Diego
+2024-05-19,1302,Jim,Berry,ostevens@example.net,9658541152,527,499,Beauty,2,282.17,31.66,Chicago
+2024-08-05,1728,Emily,Mullins,michael95@example.org,9670082278,528,457,Furniture,9,1068.31,88.76,San Diego
+2023-12-23,1139,Julie,Snyder,ahill@example.com,9360927311,529,413,Clothing,1,910.3,11.32,Philadelphia
+2024-03-13,1081,Christopher,Estrada,mmorse@example.net,6304533964,530,267,Electronics,8,1138.15,71.19,Phoenix
+2024-09-25,1254,Brooke,Reid,bthompson@example.com,2284229661,531,466,Beauty,5,886.05,56.84,San Diego
+2024-09-01,1798,Sara,Walker,christianboone@example.net,4321636846,532,289,Clothing,2,1097.15,89.14,Phoenix
+2024-04-12,1287,Nicole,Kent,qhoover@example.org,7231989230,533,394,Clothing,7,282.45,50.35,New York
+2024-05-28,1134,Brandon,Jackson,lisa10@example.net,5617358138,534,455,Beauty,1,669.42,63.03,Dallas
+2023-10-11,1164,Cynthia,Burgess,dennistaylor@example.com,7044625719,535,421,Groceries,2,355.94,79.81,Los Angeles
+2024-06-21,1018,Joshua,Watson,andersenbrian@example.org,3799404625,536,359,Furniture,5,1122.79,69.78,Dallas
+2024-07-17,1588,Keith,Barker,steven26@example.com,8515119349,537,260,Electronics,9,1384.73,30.92,Dallas
+2023-12-15,1543,Paul,Foster,seanmoore@example.net,7643914085,538,141,Electronics,8,1282.59,82.59,Los Angeles
+2023-10-13,1729,Erika,Ray,huertaemily@example.net,0758035916,539,464,Furniture,8,774.65,27.63,Philadelphia
+2024-03-02,1874,Sarah,Hahn,frank26@example.com,3200886838,540,380,Clothing,2,149.96,82.98,Dallas
+2024-05-25,1809,Katherine,Lopez,groth@example.org,5424542264,541,170,Books,8,963.65,69.65,Philadelphia
+2024-07-04,1817,Russell,Freeman,david17@example.net,2375782258,542,357,Furniture,2,308.64,18.1,Phoenix
+2024-07-16,1152,Susan,Coleman,dicksonmichael@example.com,4334427427,543,385,Sports,8,341.43,66.73,Philadelphia
+2024-04-16,1753,Stacey,Heath,jasonthompson@example.com,5911618051,544,253,Books,8,144.03,16.0,Los Angeles
+2024-05-21,1606,Phillip,Thompson,brianjohnson@example.net,4155015981,545,421,Clothing,4,618.2,87.08,Phoenix
+2024-01-06,1580,Christina,Bishop,jeffrey69@example.com,4617840994,546,287,Sports,9,797.61,20.2,Dallas
+2024-09-05,1215,Colin,Rodriguez,jennifer42@example.net,8482335711,547,260,Groceries,9,646.28,81.99,San Diego
+2024-03-29,1033,Jaime,Vargas,davidvictoria@example.net,7319899383,548,123,Clothing,2,146.07,62.6,Chicago
+2024-08-31,1406,Jennifer,Haley,alanbender@example.org,9432823212,549,167,Groceries,2,888.88,63.34,Houston
+2023-11-23,1841,Roy,Matthews,xle@example.com,9780532248,550,377,Beauty,3,628.23,19.34,Phoenix
+2024-01-25,1204,Sarah,Taylor,dawsonmichael@example.org,4559612095,551,256,Electronics,2,1456.92,57.48,San Jose
+2024-03-06,1052,John,Decker,deborahsanchez@example.net,2999609228,552,301,Beauty,9,563.61,17.11,Los Angeles
+2023-11-12,1152,Sherri,Thomas,icameron@example.com,7719538198,553,485,Beauty,4,472.55,26.79,Philadelphia
+2024-05-19,1191,Steven,Cooper,hmitchell@example.com,4440635823,554,426,Groceries,6,476.81,68.66,Houston
+2024-01-17,1878,Mary,Nielsen,nicole99@example.org,3876165891,555,163,Clothing,9,1090.56,27.19,San Jose
+2023-10-24,1713,Samuel,Mclean,robinsonjasmine@example.com,2077373299,556,409,Toys,3,1284.07,48.11,Los Angeles
+2023-09-29,1988,Elizabeth,Mcmahon,jonathan45@example.com,7733231230,557,387,Books,4,591.86,67.77,Philadelphia
+2024-06-17,1627,Caitlin,Cook,anthonygardner@example.net,5563487528,558,245,Toys,5,736.44,61.37,Philadelphia
+2024-01-08,1630,Elizabeth,Robinson,brianna57@example.com,0331397449,559,483,Sports,8,311.82,63.55,San Antonio
+2024-04-21,1982,Anthony,Burton,barry67@example.org,4595727915,560,367,Sports,6,786.47,54.95,New York
+2023-10-15,1431,Mandy,Gould,ujackson@example.com,6933105811,561,196,Sports,9,1231.55,21.79,Los Angeles
+2024-06-12,1429,Jimmy,Abbott,eric59@example.com,2113511734,562,319,Beauty,8,62.4,2.6,San Jose
+2023-12-06,1802,Crystal,Tapia,silvacharles@example.com,9256733715,563,335,Electronics,3,398.11,41.08,New York
+2024-02-27,1851,Jamie,Cruz,hescobar@example.net,8331769264,564,239,Sports,5,738.92,14.32,San Diego
+2023-10-29,1993,Charles,Bennett,heather32@example.net,1070752835,565,237,Toys,9,864.83,69.51,Los Angeles
+2024-09-14,1671,David,Lee,webbjustin@example.org,6061562502,566,487,Furniture,1,134.24,27.04,Phoenix
+2024-01-26,1995,Melissa,Schwartz,omartin@example.net,1988009203,567,185,Groceries,9,660.74,47.45,San Diego
+2024-07-20,1401,Edward,Calhoun,rdeleon@example.org,7115620583,568,118,Books,5,502.56,47.08,Chicago
+2024-02-14,1157,Zoe,Cooper,cmitchell@example.org,3489764492,569,493,Sports,6,1151.1,20.32,San Diego
+2024-07-31,1756,Drew,Williams,barkerdaniel@example.com,7873008154,570,327,Toys,7,1210.75,85.39,San Diego
+2024-09-15,1273,Michael,Ruiz,jennifercarter@example.com,7933633138,571,230,Furniture,5,1494.87,64.46,Houston
+2023-10-07,1922,Tammy,Thompson,sjuarez@example.com,3493652309,572,226,Clothing,9,756.04,60.46,San Diego
+2024-08-20,1789,Patrick,Hernandez,hughestravis@example.net,8684512354,573,304,Electronics,1,688.73,7.03,New York
+2024-01-23,1282,Ashley,Bautista,adrian34@example.org,6834677643,574,454,Books,7,1423.19,75.26,San Diego
+2023-12-20,1792,Sarah,Hill,ymills@example.net,8944760780,575,382,Electronics,4,533.76,45.96,Houston
+2024-07-26,1342,Robert,Nixon,williamthornton@example.com,7625212674,576,181,Groceries,2,1075.45,32.53,Philadelphia
+2024-04-29,1380,Rebecca,Garcia,ebishop@example.net,5202634146,577,432,Groceries,9,255.95,30.47,Phoenix
+2024-07-29,1865,Christopher,Carlson,ztaylor@example.org,0801792400,578,342,Furniture,1,1328.74,3.89,Dallas
+2024-08-28,1299,Brandi,Lee,duffyrobert@example.com,1013040911,579,268,Sports,2,1119.29,84.8,Los Angeles
+2023-12-15,1327,Laura,Vaughn,craigjohnson@example.org,0981765821,580,162,Clothing,7,860.42,62.86,San Antonio
+2024-06-06,1137,Joy,Hunter,emma23@example.com,2145313701,581,163,Sports,1,460.51,9.23,Chicago
+2024-04-15,1425,Alex,Young,tiffanylewis@example.org,5116046032,582,160,Furniture,9,1137.86,72.3,New York
+2024-05-26,1045,Dylan,Thomas,qlee@example.com,0784166730,583,338,Electronics,5,134.11,18.25,San Jose
+2024-02-03,1200,Trevor,Boyd,barnesbenjamin@example.net,3834119739,584,494,Toys,6,1024.7,69.96,Philadelphia
+2024-06-22,1576,Michelle,Perez,lgallagher@example.org,1167370296,585,274,Electronics,9,1326.46,61.9,Phoenix
+2023-11-08,1982,Samantha,Gray,micheleanderson@example.org,0655434856,586,295,Groceries,6,1492.51,72.37,San Antonio
+2024-07-12,1517,Nathan,Griffith,jonesregina@example.com,3272974879,587,313,Toys,4,1140.12,62.98,San Jose
+2024-02-04,1013,Crystal,Ramirez,riverarebecca@example.com,4687539179,588,203,Toys,9,829.0,83.01,Philadelphia
+2023-11-27,1918,Michael,White,jamessavage@example.net,0701996584,589,128,Toys,6,121.91,52.37,Dallas
+2024-04-18,1762,Earl,Jackson,valentinecaroline@example.org,8592885073,590,176,Furniture,1,398.97,15.8,Dallas
+2024-01-09,1306,Jose,Scott,alex97@example.com,8353658745,591,351,Beauty,2,579.74,47.35,San Jose
+2024-05-17,1051,Bianca,Brown,chelsea30@example.com,7152334321,592,356,Books,8,1035.03,61.38,San Antonio
+2024-04-18,1661,Lisa,Davis,donald35@example.org,8183684203,593,145,Sports,7,562.49,32.6,Los Angeles
+2024-02-04,1929,Katherine,Johnson,kristopher00@example.com,3932329798,594,160,Beauty,3,1318.73,68.82,Dallas
+2024-03-31,1538,Ashlee,Trujillo,marksavage@example.net,5381233414,595,101,Beauty,5,1141.44,56.62,San Antonio
+2023-10-15,1223,Melissa,Burgess,harmstrong@example.org,5071223666,596,113,Books,9,1461.14,0.16,Chicago
+2024-09-26,1894,Sarah,Richardson,colemallory@example.org,3130655606,597,435,Toys,2,1052.83,11.85,Los Angeles
+2024-05-15,1176,Amy,Valentine,brittanymartin@example.org,2866768847,598,439,Sports,6,1048.91,50.91,Philadelphia
+2024-04-13,1947,Regina,Roberts,katelynjohnson@example.com,6597453508,599,303,Sports,1,1356.49,8.79,San Jose
+2024-01-05,1317,Stephanie,Jensen,bwoodward@example.org,9666412748,600,267,Books,7,416.32,77.01,New York
+2024-08-06,1459,Amanda,Scott,bernardcross@example.org,4537398460,601,433,Groceries,3,1494.18,73.54,San Antonio
+2024-05-16,1391,Kathy,Campbell,vincentgregory@example.net,1170264239,602,420,Toys,1,1202.25,51.51,Los Angeles
+2024-02-13,1624,Jonathan,Woods,jessicakoch@example.com,5364539518,603,246,Groceries,9,876.66,12.15,San Antonio
+2023-12-11,1178,Leonard,Lewis,burchtara@example.net,5822279527,604,312,Clothing,7,188.48,54.78,Philadelphia
+2024-07-19,1703,Caleb,Rose,michaeltaylor@example.com,2200707386,605,270,Beauty,9,1188.76,36.32,Los Angeles
+2024-03-19,1368,Zachary,Moss,patrickrubio@example.org,8874438532,606,392,Books,8,858.11,70.05,Los Angeles
+2024-09-19,1870,Janet,Mason,hguerra@example.net,3871599552,607,202,Books,8,1145.83,17.51,Dallas
+2024-07-30,1639,Courtney,Howell,lmartinez@example.com,8585352658,608,438,Beauty,6,666.1,20.9,Los Angeles
+2024-09-17,1622,Benjamin,Montgomery,stevencarr@example.com,9044998240,609,242,Sports,8,1277.73,68.65,Dallas
+2024-01-30,1685,Jonathan,Nielsen,frankgreen@example.org,4742011377,610,396,Beauty,9,973.55,26.7,Los Angeles
+2024-05-28,1359,Tiffany,Lowe,fostersherry@example.org,8551382120,611,229,Books,3,1368.88,42.66,San Jose
+2024-07-19,1296,Vanessa,Blankenship,tmcgee@example.org,9689754564,612,165,Clothing,2,1343.01,10.35,Dallas
+2024-09-02,1710,Beverly,Maddox,lhowell@example.org,3049415595,613,245,Books,2,1009.71,13.79,Houston
+2024-08-09,1454,Kimberly,Sims,rhill@example.org,3718095603,614,265,Clothing,5,47.34,44.9,Los Angeles
+2023-12-30,1127,Holly,Shelton,carmen77@example.net,3871994134,615,360,Furniture,8,94.61,21.71,Phoenix
+2024-04-02,1660,Whitney,King,gchristian@example.com,2934684260,616,362,Clothing,3,1072.74,60.95,San Antonio
+2023-10-02,1971,Rhonda,Parker,shelleymeyer@example.net,9134382163,617,224,Sports,1,257.91,5.64,San Antonio
+2024-03-02,1162,Cynthia,Hines,webbgabriel@example.net,9526804959,618,207,Books,1,1316.68,78.86,San Jose
+2024-05-03,1154,Mary,Davis,xbaker@example.net,5818974652,619,166,Groceries,2,857.42,42.14,Dallas
+2024-05-02,1816,Michelle,Bailey,rcole@example.net,2004174840,620,166,Books,8,1227.01,44.13,Dallas
+2024-01-18,1200,Benjamin,Cruz,xhudson@example.com,7231142863,621,496,Furniture,9,720.26,57.39,Houston
+2024-08-03,1214,Craig,Hunt,brittney80@example.org,6655017057,622,466,Books,5,408.21,69.13,San Diego
+2024-06-11,1732,Cindy,Salinas,russellsanders@example.org,8735499492,623,333,Furniture,4,469.54,12.93,San Antonio
+2024-04-29,1047,Victoria,Vang,tuckerricardo@example.net,1355722376,624,304,Books,9,1462.58,58.54,Chicago
+2023-11-14,1957,Jacob,Spence,christopherdavidson@example.net,7779261292,625,470,Sports,4,209.46,26.93,Chicago
+2024-09-17,1484,Donald,Orr,andreawilkins@example.com,8479254532,626,141,Toys,9,1030.71,44.53,Phoenix
+2023-10-20,1250,Juan,Gray,scottwise@example.net,7950237976,627,361,Clothing,1,874.2,29.07,Philadelphia
+2023-11-19,1471,Aaron,Galvan,angelamcneil@example.com,9248005802,628,458,Groceries,2,1235.55,14.01,Philadelphia
+2023-10-06,1908,Alexandria,Hart,briancastillo@example.com,3789975339,629,211,Books,7,685.41,61.91,New York
+2024-06-24,1780,Laura,Gonzales,hubbardashley@example.org,7482169932,630,244,Groceries,3,1333.2,8.81,New York
+2024-03-18,1694,Anthony,Boone,beth29@example.com,8548097041,631,198,Clothing,3,1373.6,49.21,Philadelphia
+2024-02-12,1695,Mario,Andrade,nancy20@example.com,6204978302,632,322,Groceries,9,971.24,21.65,New York
+2024-06-19,1362,Annette,Gay,johnsonandrea@example.org,0775178154,633,165,Books,9,76.7,26.7,San Diego
+2024-03-22,1341,Juan,Rhodes,mccarthysherry@example.com,7442105995,634,228,Beauty,6,487.7,18.19,Houston
+2024-01-22,1368,Jose,Mitchell,xfisher@example.com,6792487988,635,277,Furniture,8,972.22,87.61,Houston
+2023-11-02,1779,Kristin,Lee,kellermegan@example.net,7751318778,636,213,Books,6,98.14,14.63,San Antonio
+2024-08-02,1237,Cesar,Mitchell,kimberlynewton@example.com,4602017989,637,164,Electronics,8,582.09,15.13,Houston
+2024-05-04,1427,Joseph,Norris,uflores@example.org,8055984552,638,138,Electronics,5,27.61,82.58,New York
+2024-02-22,1939,Michael,Brooks,richard17@example.org,3717648444,639,458,Groceries,2,968.06,87.29,New York
+2024-03-27,1132,James,Sanchez,michaelschmidt@example.com,0646378892,640,259,Beauty,7,429.6,11.08,Chicago
+2024-02-11,1886,Jason,Diaz,ocox@example.com,7692070133,641,458,Sports,8,276.63,9.04,Los Angeles
+2024-07-06,1519,Douglas,Fields,katherine12@example.net,7029739393,642,262,Books,3,87.69,29.19,Phoenix
+2024-03-08,1181,Richard,Martinez,boyddavid@example.org,5774554388,643,428,Beauty,6,1149.65,52.59,San Antonio
+2024-09-17,1061,Joshua,Booth,timothy71@example.net,5482689651,644,105,Clothing,6,1471.86,23.3,Chicago
+2024-01-10,1713,Kathleen,Luna,shirley69@example.org,2156535362,645,390,Furniture,4,886.49,22.48,Chicago
+2024-09-02,1607,Kyle,Norton,leejustin@example.com,9615480436,646,401,Clothing,1,394.88,56.98,New York
+2024-05-05,1984,Michael,Brown,tanyahenry@example.org,1356933033,647,366,Electronics,9,666.16,70.98,San Antonio
+2024-07-11,1678,Raymond,Adkins,mossthomas@example.com,5496174350,648,105,Electronics,2,713.62,71.19,Philadelphia
+2024-04-05,1554,Karen,Reed,cmoran@example.org,2000588969,649,101,Electronics,4,886.11,50.1,San Diego
+2023-11-03,1031,James,Roy,christopherallen@example.org,0498120521,650,417,Clothing,2,1173.66,35.64,Chicago
+2024-05-11,1794,Brandy,Fuller,thomasmary@example.com,4526169893,651,491,Beauty,4,972.53,72.74,Chicago
+2024-06-09,1198,Glen,Evans,dalvarez@example.net,1736278829,652,146,Furniture,1,339.02,71.18,Phoenix
+2023-11-14,1642,Margaret,Avery,tiffany93@example.com,0745435889,653,368,Sports,3,1058.84,72.71,Houston
+2024-09-13,1785,Joseph,Vazquez,powellrobert@example.com,2325013652,654,304,Furniture,8,122.73,71.92,Houston
+2024-06-04,1096,Matthew,Harding,qperez@example.net,9811136674,655,295,Electronics,3,142.56,8.48,Chicago
+2023-11-07,1296,Vincent,Rice,newmansarah@example.com,6663900721,656,311,Furniture,2,501.52,76.88,Los Angeles
+2024-05-30,1986,Teresa,Caldwell,victoria39@example.com,1046536853,657,457,Sports,7,161.11,73.21,San Diego
+2024-03-20,1060,Alexander,Jones,evanhurst@example.org,7678456109,658,128,Toys,8,1054.55,65.82,Philadelphia
+2023-12-15,1576,Michael,Webb,jennifer31@example.com,3462997455,659,134,Toys,8,1363.55,37.59,Houston
+2023-11-27,1039,Heather,Franklin,elaineortiz@example.org,9129398641,660,368,Toys,4,1493.54,39.31,Houston
+2024-02-15,1724,Rebecca,Williams,jonathonbrock@example.org,1975613583,661,303,Groceries,4,858.44,74.53,New York
+2023-11-24,1271,Gina,Russell,asmith@example.net,5070859334,662,468,Beauty,5,965.11,64.37,Phoenix
+2024-09-11,1725,Robert,Watkins,jgregory@example.com,6588999150,663,285,Books,4,774.05,68.28,San Diego
+2024-05-13,1252,Jonathan,Flores,kelseymyers@example.org,9150555113,664,389,Electronics,2,416.5,19.48,San Diego
+2023-12-05,1125,Mark,James,felicia26@example.net,5791777010,665,424,Books,3,1455.13,21.73,Houston
+2024-03-25,1921,Andrew,Neal,robert04@example.net,1400498369,666,236,Groceries,8,1037.45,58.21,Houston
+2024-01-14,1963,Kathy,Parker,dianebrown@example.org,2741729633,667,465,Sports,7,416.21,2.29,New York
+2024-02-15,1296,Betty,Woods,pnixon@example.org,5557929934,668,168,Electronics,8,944.0,28.31,San Antonio
+2024-01-26,1698,Jose,Brown,wilsontamara@example.com,1097605394,669,173,Electronics,6,777.4,82.65,Dallas
+2024-07-21,1229,William,Parks,iduran@example.net,2222336329,670,225,Books,4,1351.05,65.27,Dallas
+2024-07-18,1576,John,Patrick,parkergina@example.com,9658100881,671,174,Electronics,1,1447.0,62.58,San Diego
+2024-06-05,1222,Aaron,Cole,melissa72@example.net,1158391197,672,281,Sports,6,865.24,43.3,San Antonio
+2024-09-01,1375,Samantha,Morris,johnjohnson@example.org,6461384922,673,237,Beauty,2,1179.74,63.66,Dallas
+2024-08-03,1742,Rhonda,Dalton,whitemeghan@example.net,7452809510,674,133,Toys,2,280.31,23.81,Philadelphia
+2023-12-12,1434,Alan,Mendez,pgaines@example.org,3027148268,675,401,Toys,4,1352.24,35.56,San Diego
+2023-11-23,1107,Victor,Contreras,michael29@example.net,2140307854,676,395,Books,9,470.11,16.47,Dallas
+2024-03-09,1766,Catherine,Morales,icastillo@example.com,6633553602,677,128,Clothing,1,1228.67,4.64,New York
+2024-02-17,1511,Jessica,Freeman,fitzgeraldkathleen@example.net,3221864476,678,179,Sports,3,1292.87,75.77,San Diego
+2024-09-26,1685,Steve,Bryant,ortizcheryl@example.net,4750906699,679,154,Toys,3,442.26,28.14,San Antonio
+2023-10-23,1879,Stephanie,Smith,dwaynerodriguez@example.com,4832495906,680,242,Toys,3,164.62,79.82,Phoenix
+2024-07-26,1632,Sally,Shelton,michelle90@example.net,5347276224,681,489,Toys,8,508.15,11.16,Chicago
+2024-02-02,1335,James,Bennett,simmonshenry@example.com,4074409792,682,476,Toys,6,28.22,84.65,New York
+2024-02-29,1437,Walter,Gardner,samantha70@example.net,8733765824,683,295,Groceries,8,1292.3,87.3,New York
+2024-03-24,1446,Beverly,Baker,michaelobrien@example.org,6938543611,684,383,Beauty,9,597.4,27.42,New York
+2024-04-01,1004,Brett,Garcia,melodywilkins@example.net,7099641097,685,130,Books,9,188.23,48.14,San Jose
+2024-02-28,1111,Kelly,Robinson,yhuang@example.org,9733738335,686,104,Toys,7,952.66,2.39,San Antonio
+2024-04-04,1525,Sarah,Fernandez,kyle19@example.net,4125291701,687,120,Beauty,1,90.52,84.62,Philadelphia
+2024-09-20,1241,Raymond,Jenkins,njackson@example.org,2222172809,688,235,Books,5,1424.73,3.09,San Diego
+2024-03-17,1093,Eileen,Joseph,marksjennifer@example.net,4080494893,689,188,Books,4,1292.64,20.24,New York
+2024-03-15,1512,Kevin,Bender,bsmith@example.net,3242727387,690,489,Clothing,8,1262.48,72.56,New York
+2024-03-25,1159,Theresa,Cox,lhenry@example.net,2456239528,691,481,Toys,2,514.13,59.16,San Diego
+2023-12-25,1106,Melanie,Carter,rhouston@example.org,1486690919,692,259,Beauty,9,281.2,46.56,Chicago
+2024-04-12,1142,Jessica,Cervantes,meaganburns@example.net,3100754358,693,315,Sports,4,1309.21,27.88,San Jose
+2024-09-05,1608,Anthony,Kennedy,kflores@example.org,5556384690,694,309,Electronics,8,78.75,11.08,San Diego
+2023-12-26,1000,Patrick,Mcdonald,james71@example.org,1870134683,695,438,Clothing,5,360.65,23.67,Los Angeles
+2024-01-04,1282,Dominic,Miller,obullock@example.com,0012202529,696,462,Toys,7,665.13,8.08,Phoenix
+2024-03-01,1639,Amy,Long,schmidtthomas@example.net,5821835067,697,449,Sports,5,637.54,25.47,Chicago
+2024-04-17,1497,Todd,Rivera,angelalynn@example.org,8001776341,698,192,Electronics,9,36.39,50.17,Houston
+2024-07-24,1320,Anne,Santiago,victoria08@example.org,0492615508,699,427,Sports,6,557.81,75.98,New York
+2024-09-05,1102,Emily,Wilson,jason31@example.com,0893850926,700,398,Beauty,5,578.23,82.07,Phoenix
+2024-04-25,1252,Amy,Shepard,theresa21@example.org,3925952460,701,386,Groceries,3,1029.96,66.11,San Jose
+2024-09-09,1109,Eddie,Washington,desireefowler@example.org,4643901848,702,131,Sports,8,206.23,63.78,San Jose
+2024-05-07,1052,Jennifer,Roth,jennifer82@example.org,6899838850,703,357,Groceries,3,1297.06,82.47,Philadelphia
+2024-01-26,1975,Megan,Anderson,popejim@example.org,1727584500,704,395,Books,3,837.81,74.31,Phoenix
+2023-12-19,1879,Terri,Austin,lindsaychandler@example.com,3505356501,705,433,Sports,7,940.97,41.5,San Diego
+2024-08-15,1024,Leah,Kelly,fharding@example.com,7685446378,706,362,Furniture,5,1228.26,5.73,San Jose
+2024-03-03,1310,William,Carter,rebecca07@example.org,3347815354,707,134,Electronics,1,975.08,19.14,Phoenix
+2023-11-01,1717,Angela,Martinez,lisa24@example.com,6317024663,708,262,Electronics,2,118.5,85.05,Los Angeles
+2024-07-27,1958,Hector,Robles,bullockjerry@example.org,0459370535,709,395,Sports,4,1434.99,40.55,Chicago
+2023-10-25,1483,Trevor,Williams,jennifer60@example.net,1761235630,710,253,Clothing,6,960.63,63.97,Philadelphia
+2023-12-03,1664,Logan,Martinez,zfletcher@example.com,7967872385,711,323,Beauty,5,12.8,55.42,San Jose
+2024-09-21,1817,Nicole,Hart,robertsanthony@example.org,5337041815,712,105,Clothing,5,114.98,16.85,Los Angeles
+2023-12-16,1510,Eric,James,nicole10@example.net,0740267629,713,197,Books,4,1082.38,23.21,Phoenix
+2023-11-27,1185,Lori,Black,ilee@example.com,1884626665,714,443,Toys,1,571.17,65.5,New York
+2024-01-29,1888,Elizabeth,Donovan,olsonchristina@example.com,0756651336,715,257,Beauty,9,798.07,86.87,Chicago
+2024-03-09,1090,Amanda,Taylor,parksgloria@example.net,3044352801,716,262,Beauty,1,945.9,57.51,New York
+2024-04-15,1194,Katherine,Harris,whiteheadjoel@example.net,5887597320,717,135,Groceries,3,76.15,66.64,Chicago
+2024-06-18,1281,Monica,Robertson,christina92@example.com,7661263863,718,292,Clothing,9,327.66,17.48,Chicago
+2024-06-01,1512,Gregory,Wright,acevedojohn@example.org,3067733147,719,109,Furniture,6,1214.91,68.51,Philadelphia
+2024-06-18,1651,Mark,Cook,jessica11@example.com,0103702804,720,187,Beauty,8,508.16,4.62,San Diego
+2023-10-24,1503,Mark,Davis,julia31@example.net,9818490857,721,465,Beauty,7,81.61,14.9,Dallas
+2024-03-12,1914,Jessica,Perez,xali@example.com,4400246348,722,385,Clothing,3,220.17,55.16,Los Angeles
+2024-09-05,1173,James,Yates,staceygray@example.org,8217683765,723,160,Groceries,2,265.72,2.01,Phoenix
+2024-06-17,1224,Lauren,Hall,rayedward@example.net,8108813723,724,221,Groceries,9,179.85,48.82,San Antonio
+2024-01-18,1502,Jose,Steele,pnorman@example.com,7196166043,725,294,Beauty,2,719.51,55.49,Phoenix
+2024-01-16,1411,Emma,Bond,jennifer00@example.net,2497948522,726,189,Sports,5,1275.09,87.34,Philadelphia
+2024-08-02,1642,Jennifer,Brooks,robinsongina@example.com,3284705435,727,127,Furniture,8,1152.05,67.85,Chicago
+2024-03-03,1805,Robert,Baker,cynthiaali@example.org,2820387706,728,494,Furniture,2,1003.96,34.28,Dallas
+2024-07-28,1510,Devin,Glover,petersonkimberly@example.com,3671151705,729,187,Toys,6,1226.27,48.24,New York
+2023-12-29,1998,Amy,Barber,morrisemily@example.com,2671610020,730,276,Clothing,4,452.96,9.07,Dallas
+2024-02-21,1439,Stacy,Terry,dixonbenjamin@example.net,6108409989,731,290,Toys,2,391.95,65.12,San Diego
+2024-03-19,1148,April,Schmidt,robinsonsamantha@example.net,5654006835,732,171,Electronics,9,366.36,27.92,Los Angeles
+2024-07-07,1350,Tony,Robinson,jessica51@example.com,3682541533,733,484,Electronics,1,717.94,35.45,Los Angeles
+2024-02-15,1740,Debra,Dominguez,katherinerobbins@example.org,7202309184,734,225,Clothing,7,907.59,16.24,Chicago
+2024-07-12,1718,Sandra,Williams,amymitchell@example.com,7447592182,735,229,Furniture,4,548.5,10.98,New York
+2024-05-18,1441,Gary,Martin,thomasbarnes@example.net,5967192166,736,178,Electronics,5,1328.27,69.15,San Jose
+2023-12-31,1602,Savannah,Skinner,michelle73@example.com,9728064411,737,188,Toys,5,1188.9,43.14,San Jose
+2024-08-09,1534,Jasmine,Garcia,padillatravis@example.com,7898471489,738,132,Electronics,7,969.19,53.3,Los Angeles
+2024-05-16,1461,Thomas,Berry,hodgeslaura@example.net,3945038374,739,339,Electronics,5,632.29,25.52,New York
+2024-07-24,1310,Michael,Moore,annettewilson@example.com,6567829860,740,427,Electronics,7,487.56,89.1,Dallas
+2024-06-06,1094,Christopher,Briggs,cynthiabradley@example.net,5590512807,741,192,Clothing,8,807.23,57.05,Dallas
+2024-06-23,1953,Michael,Clark,hardykathleen@example.net,4686305394,742,313,Electronics,5,970.9,48.54,Los Angeles
+2024-01-05,1073,Cole,Nichols,tammy27@example.net,7297697365,743,491,Electronics,8,955.16,30.15,Houston
+2023-11-26,1388,Nicholas,Acosta,doylekaren@example.com,8591750104,744,418,Books,7,78.14,43.85,Philadelphia
+2024-04-08,1561,Danielle,Walters,lgarrett@example.net,7291756776,745,371,Toys,3,632.25,36.19,Dallas
+2024-04-07,1187,Erik,Williams,sarahmurphy@example.org,6240875709,746,429,Beauty,8,983.01,21.01,San Antonio
+2023-10-16,1479,Katherine,Giles,alex65@example.org,4265730447,747,425,Beauty,8,260.08,2.88,Dallas
+2023-12-22,1435,Danielle,Kaiser,ericksonclinton@example.net,0984664433,748,246,Groceries,9,1267.26,30.94,Chicago
+2023-10-30,1942,Lisa,Black,david29@example.net,2466067689,749,415,Electronics,5,704.48,60.76,New York
+2024-03-06,1088,Amanda,Jordan,timothy27@example.net,8623812548,750,266,Electronics,6,1355.83,82.68,Philadelphia
+2024-02-28,1205,Pedro,Grimes,mariafisher@example.org,6494969870,751,160,Books,7,1407.66,78.48,San Antonio
+2023-09-30,1635,Erin,Hopkins,vbolton@example.com,3537896696,752,277,Beauty,9,1499.93,58.02,New York
+2023-10-24,1838,Donna,Ingram,qharris@example.org,5874655531,753,152,Clothing,3,156.72,51.03,Phoenix
+2024-01-13,1450,Brandon,Price,ccampbell@example.net,4531144254,754,431,Clothing,6,895.75,25.6,San Diego
+2023-12-18,1639,Catherine,Lowe,saralong@example.com,0199888593,755,465,Furniture,8,798.13,43.1,Chicago
+2023-11-14,1029,James,Williams,marquezthomas@example.net,1971445295,756,234,Books,3,310.47,59.94,New York
+2024-08-13,1894,Randy,Richmond,johnny98@example.net,0891233377,757,386,Beauty,9,1086.27,12.24,Los Angeles
+2024-04-06,1497,Rebecca,Johnson,stephanie55@example.org,8312197109,758,144,Toys,5,158.26,50.1,Philadelphia
+2023-11-12,1310,Steven,Knight,deborahturner@example.org,6117621683,759,175,Sports,7,217.63,5.13,Philadelphia
+2024-03-04,1972,Nicholas,Wilson,autumn46@example.com,5038909143,760,479,Electronics,7,918.44,24.06,San Jose
+2024-04-25,1142,Alan,Holt,lunabrian@example.com,1425911478,761,400,Furniture,4,123.94,35.84,Philadelphia
+2024-02-04,1758,Kathryn,Jones,huntmichael@example.com,5879541172,762,327,Clothing,2,873.34,51.6,New York
+2024-08-10,1343,Jacob,Cobb,westgabriel@example.net,9609987037,763,271,Toys,3,1306.83,41.74,New York
+2024-08-23,1580,David,Rice,gjames@example.net,0482440163,764,170,Beauty,8,1193.69,20.09,San Diego
+2023-11-29,1554,Samuel,Marshall,amanda48@example.net,6300635204,765,105,Electronics,3,400.06,51.1,Los Angeles
+2023-11-08,1714,Natasha,Stewart,saunderskaitlyn@example.org,4800556549,766,131,Books,7,507.95,6.12,Los Angeles
+2023-11-13,1550,Jeremy,Heath,lawsonlawrence@example.net,8834341180,767,163,Groceries,8,461.04,56.79,Los Angeles
+2024-02-17,1932,Colleen,Wall,seanmurray@example.net,1584652372,768,248,Furniture,9,1208.82,9.09,Los Angeles
+2024-08-11,1784,Daniel,Gonzalez,kaitlinclark@example.com,2549324683,769,127,Beauty,3,889.12,2.55,Philadelphia
+2024-01-01,1130,Adam,Anderson,ryancampbell@example.net,7953557888,770,389,Electronics,2,28.15,21.42,San Antonio
+2024-09-02,1735,Kelly,Carroll,yolson@example.org,6187007148,771,312,Clothing,5,198.34,77.12,Dallas
+2024-06-24,1267,Angel,Nolan,wilsondorothy@example.net,4769360023,772,150,Toys,6,871.38,36.82,Houston
+2024-05-27,1133,Richard,Henry,comptonjulie@example.net,0798931649,773,222,Books,6,403.82,5.57,Phoenix
+2023-12-05,1292,Tiffany,Nelson,dorothy48@example.org,7438599678,774,218,Clothing,5,102.94,87.24,Los Angeles
+2023-11-18,1403,Andrew,Hernandez,christopher99@example.org,0372479906,775,458,Groceries,9,1344.55,21.13,Los Angeles
+2023-12-05,1990,Pamela,Mora,egill@example.com,9617952087,776,226,Electronics,6,685.14,87.22,San Jose
+2024-05-18,1581,Stacey,Brooks,lbolton@example.com,6324831448,777,301,Groceries,6,407.48,23.31,Houston
+2024-09-08,1432,Bob,Green,knoxlisa@example.net,4545077729,778,249,Groceries,5,489.36,0.83,Dallas
+2023-09-29,1907,Joseph,Shaw,maldonadojoshua@example.org,8029432019,779,274,Furniture,5,1263.08,78.36,Dallas
+2024-07-17,1123,Robert,Cole,bhayes@example.com,5850576014,780,484,Books,9,696.39,82.44,San Jose
+2024-02-09,1517,Megan,Garcia,alex58@example.org,7720206088,781,208,Beauty,1,1084.65,72.05,Phoenix
+2024-09-11,1801,Randy,Smith,snyderjudith@example.org,6429416647,782,369,Toys,6,688.89,76.13,San Antonio
+2024-06-26,1577,Elizabeth,Thomas,paulwood@example.net,2753819047,783,447,Electronics,7,98.26,70.17,New York
+2024-06-29,1768,Rachel,Gray,bakerdaniel@example.net,1401084193,784,120,Sports,7,1350.57,26.48,Chicago
+2023-12-07,1765,Jessica,Gibbs,sarah65@example.com,2127955128,785,139,Beauty,3,889.64,30.19,San Jose
+2023-10-02,1488,Jeremy,Booker,michael81@example.org,6451488102,786,324,Books,4,1040.75,50.71,San Jose
+2024-05-15,1699,Ronald,Gross,humphreyapril@example.net,6728545805,787,282,Clothing,9,798.72,28.72,San Jose
+2023-10-22,1096,Adam,Christian,carrapril@example.net,7910913843,788,227,Sports,8,1043.56,43.01,Phoenix
+2024-05-06,1908,James,Ramos,bkelly@example.org,3544165660,789,134,Clothing,8,699.33,15.39,New York
+2024-04-07,1166,Timothy,Hayes,whorton@example.org,8896821578,790,443,Furniture,1,188.6,77.54,Philadelphia
+2024-09-08,1392,Joshua,Curtis,billyramirez@example.net,1872174416,791,192,Beauty,1,919.44,36.94,New York
+2024-06-19,1181,James,Johnson,inunez@example.com,6520929544,792,121,Clothing,2,980.94,66.34,Los Angeles
+2024-04-29,1052,Cynthia,Crane,ruthadams@example.com,2451384213,793,191,Furniture,3,814.7,28.69,New York
+2024-02-13,1184,Pamela,Lee,greenescott@example.net,8108990484,794,182,Books,7,444.81,19.73,Dallas
+2024-08-25,1379,Diana,Pham,adamsjoel@example.org,8547709126,795,251,Beauty,2,875.3,56.08,New York
+2024-03-14,1492,Cameron,Kemp,kimberlymoore@example.org,1089041606,796,278,Toys,8,1021.67,51.04,Phoenix
+2024-03-21,1983,Earl,Barry,john03@example.org,2027714006,797,488,Electronics,6,1464.82,18.82,Phoenix
+2024-06-29,1400,Maria,Hall,wking@example.net,8696319180,798,226,Groceries,2,619.73,33.33,New York
+2024-03-16,1101,Bryce,Daniel,marypatton@example.net,2876505818,799,330,Sports,4,312.4,1.55,New York
+2024-09-22,1151,Brenda,Howard,kevinadkins@example.net,0261376708,800,151,Books,8,302.32,64.52,New York
+2024-05-07,1864,Jessica,Moyer,larry36@example.com,9741348860,801,438,Furniture,9,10.41,64.52,San Jose
+2024-01-11,1586,Maria,Rogers,jennifergoodwin@example.com,1938094884,802,246,Toys,5,848.34,18.91,New York
+2024-01-13,1205,Michael,Cox,john79@example.org,4677346462,803,204,Furniture,1,30.82,47.76,New York
+2023-11-23,1038,Krista,Snyder,chankatherine@example.com,0928028014,804,275,Beauty,7,47.72,69.28,Philadelphia
+2024-08-26,1588,Diane,Martinez,brownchristopher@example.com,5822036824,805,443,Beauty,9,574.77,29.96,New York
+2024-08-31,1215,Linda,Stafford,smoore@example.org,0707330727,806,325,Beauty,2,531.27,3.82,Dallas
+2024-06-16,1872,Rhonda,Clark,dianeperez@example.com,2667827512,807,325,Sports,8,1170.39,73.28,Houston
+2023-11-27,1088,Jennifer,Smith,tara73@example.org,2930584538,808,247,Books,1,297.23,51.74,San Jose
+2024-06-20,1953,Jasmine,Sanchez,riospatricia@example.org,5535857539,809,285,Groceries,6,638.46,0.09,Dallas
+2024-08-08,1395,Donald,Mayo,joseph31@example.org,3955886555,810,392,Books,4,594.33,84.14,Los Angeles
+2024-02-08,1296,Jose,Barker,ejenkins@example.net,1536058467,811,194,Toys,2,1157.32,29.9,San Jose
+2024-07-23,1555,Crystal,Cox,pboyer@example.org,3198316446,812,281,Toys,1,567.79,30.66,New York
+2024-06-13,1262,Kimberly,Gomez,jperez@example.com,7987845940,813,203,Toys,2,973.62,54.5,Philadelphia
+2024-01-30,1233,Joseph,Vega,powellsharon@example.org,8703722232,814,331,Electronics,5,328.48,22.6,Houston
+2024-08-22,1178,Michelle,Hanson,mwilliams@example.net,9063730031,815,259,Furniture,5,1096.39,81.56,Chicago
+2024-08-12,1283,Daniel,Guerrero,john57@example.org,4207889971,816,223,Sports,8,1152.41,41.32,Houston
+2024-01-24,1809,Sonya,Price,joshua93@example.org,8691544163,817,459,Groceries,9,96.56,30.52,San Diego
+2023-10-21,1392,Elizabeth,Fischer,freyes@example.net,7327420955,818,352,Books,9,1441.28,54.22,Houston
+2024-03-04,1137,Kristen,Gordon,dawn23@example.org,8869446622,819,459,Groceries,6,228.19,61.2,Los Angeles
+2024-07-10,1723,Pamela,Green,harriselizabeth@example.net,5830211563,820,254,Groceries,7,198.63,32.49,Dallas
+2024-02-20,1010,Karen,Henderson,nicole19@example.net,3314968027,821,235,Books,9,490.11,35.77,Philadelphia
+2024-03-19,1760,Leslie,Romero,sarah69@example.org,8321219749,822,151,Sports,2,575.63,81.33,Dallas
+2024-03-24,1972,Stephanie,Ross,alexandrazuniga@example.org,5818786301,823,335,Electronics,9,152.43,1.37,San Jose
+2024-05-14,1130,Sarah,Lee,clarkjoshua@example.com,7840441895,824,221,Books,2,121.53,85.94,New York
+2024-07-15,1022,Benjamin,Henry,ericfisher@example.com,4419991014,825,353,Electronics,6,203.91,41.75,Dallas
+2023-12-05,1845,Gregory,Moore,gordon93@example.com,9339060863,826,157,Sports,6,331.54,39.49,Chicago
+2024-02-18,1883,Edward,Edwards,angela94@example.com,3148732180,827,337,Groceries,6,540.13,36.8,Dallas
+2023-11-02,1620,Madison,Jones,michael33@example.net,3838524466,828,213,Sports,9,569.36,47.64,San Antonio
+2024-01-20,1956,Janice,Long,banksadam@example.org,3841512129,829,480,Sports,4,238.24,63.77,San Jose
+2024-05-10,1364,Kathleen,Andrews,michaelhenry@example.net,2933285362,830,177,Electronics,8,1196.51,64.77,Los Angeles
+2024-03-16,1157,Jon,Robertson,johnsonmichelle@example.net,4268895742,831,485,Beauty,6,732.27,13.45,Houston
+2024-09-11,1610,Amy,Robinson,sabrinahernandez@example.org,0369796388,832,343,Electronics,5,617.54,72.42,San Jose
+2023-11-16,1940,Dylan,Williams,jeangreer@example.net,5851740314,833,191,Toys,8,1001.88,76.41,Phoenix
+2023-10-16,1357,Monica,Stevens,michael81@example.org,1195646891,834,495,Groceries,7,458.59,83.04,Philadelphia
+2024-04-18,1498,Courtney,Garcia,emartin@example.net,4831234500,835,129,Books,7,394.51,38.72,San Diego
+2024-05-18,1830,Christopher,Shepard,brianunderwood@example.net,2273360945,836,339,Electronics,4,88.43,10.09,San Diego
+2024-01-10,1344,Nicholas,Kelly,angela05@example.org,7036204861,837,115,Books,8,1471.3,3.55,Chicago
+2024-05-12,1633,Jeffery,Thomas,cruzgeorge@example.net,6712950083,838,310,Books,7,1206.39,49.78,San Diego
+2023-10-15,1933,Jasmine,Jimenez,benderstephen@example.net,7194661610,839,454,Groceries,1,1389.3,72.85,Houston
+2024-03-05,1769,Sarah,Bass,goodrichard@example.org,8452511522,840,123,Clothing,2,1013.24,46.83,Philadelphia
+2024-02-16,1409,Ariel,Graves,brandonbishop@example.net,1586710184,841,490,Beauty,8,598.02,8.34,Los Angeles
+2024-04-14,1444,Jennifer,Rasmussen,sarahbishop@example.com,7355029998,842,328,Clothing,9,315.23,4.48,San Diego
+2024-01-07,1536,Gregory,Thomas,sarahsawyer@example.net,1977049016,843,229,Clothing,3,1348.82,13.38,Dallas
+2024-08-29,1535,Christopher,Greer,jeffrey43@example.com,5922899126,844,258,Groceries,9,575.17,55.52,Los Angeles
+2024-01-29,1418,Crystal,Perry,reeveselaine@example.net,2353886157,845,108,Books,4,155.63,71.3,San Diego
+2024-03-09,1647,Nicole,Tucker,wclay@example.org,1941930693,846,406,Clothing,8,427.45,63.92,San Jose
+2023-12-30,1855,Kent,Nguyen,christopher96@example.org,6731391951,847,249,Beauty,8,1331.27,45.51,San Antonio
+2024-03-08,1607,Gary,Hicks,claydylan@example.org,7594711259,848,381,Groceries,2,161.42,56.04,Houston
+2023-12-21,1038,Timothy,Esparza,salinasbarbara@example.net,1825357303,849,106,Beauty,4,192.97,22.69,Dallas
+2024-09-10,1595,Vincent,Davis,peterrhodes@example.com,7133014967,850,173,Beauty,2,955.28,61.49,San Jose
+2024-06-28,1373,Sally,Dixon,jeffreycervantes@example.com,3838991165,851,389,Furniture,3,863.94,10.03,Los Angeles
+2024-04-23,1242,Christine,Robinson,brandiwebb@example.net,7605131551,852,278,Beauty,6,204.13,18.55,San Diego
+2024-07-26,1475,Stephen,West,nvillanueva@example.net,2017197088,853,239,Beauty,2,1046.0,25.86,Chicago
+2024-02-28,1184,Jennifer,Bridges,tyler11@example.com,8879318128,854,135,Groceries,5,1209.05,55.91,Los Angeles
+2023-10-09,1651,Alexander,Crane,kbaker@example.org,1444359606,855,440,Furniture,6,754.82,38.6,Philadelphia
+2023-10-19,1356,Brandon,Sharp,mhopkins@example.com,9291712353,856,225,Furniture,4,1369.91,4.42,New York
+2024-05-03,1124,April,Douglas,victoriawillis@example.org,2578026904,857,130,Electronics,1,673.58,58.47,Dallas
+2024-01-25,1059,Laurie,Yu,katherine71@example.org,2962357872,858,410,Books,7,1223.8,8.15,San Diego
+2024-04-09,1732,Ian,Lewis,lindaklein@example.org,3546826509,859,246,Sports,4,384.0,41.54,New York
+2024-09-22,1252,Mary,Vargas,braunmonica@example.org,5382703853,860,443,Books,5,701.95,17.7,San Diego
+2024-04-27,1930,Abigail,Terry,fdavis@example.org,5375850763,861,304,Electronics,2,265.87,88.8,San Antonio
+2024-04-19,1516,Amanda,Brown,samuel98@example.org,0387900105,862,359,Electronics,2,643.93,86.45,Phoenix
+2023-11-12,1526,Gina,Livingston,xyoung@example.org,2575508954,863,119,Beauty,5,611.34,6.41,Chicago
+2024-02-25,1362,Susan,Hunter,edwardwade@example.net,7553557587,864,330,Clothing,1,282.67,5.4,New York
+2023-12-19,1218,Stephen,Spence,charles44@example.com,3169674496,865,102,Groceries,8,468.49,18.13,Philadelphia
+2023-10-12,1519,Lisa,Boyer,shawnanderson@example.org,6940464723,866,169,Electronics,4,1412.56,52.63,New York
+2023-11-03,1456,Krystal,Huff,jessica33@example.com,8283689751,867,226,Toys,3,634.97,2.2,San Diego
+2024-04-02,1096,Eric,Jones,lhill@example.org,7074472579,868,108,Furniture,4,88.01,60.97,Phoenix
+2024-08-04,1380,John,Duffy,hstevenson@example.net,7787038168,869,446,Groceries,9,925.52,48.56,Houston
+2024-01-02,1112,Felicia,Miller,smithkristin@example.org,3882464536,870,382,Electronics,5,1278.9,47.55,Houston
+2024-06-17,1923,Matthew,Donovan,wilsonkathleen@example.org,2882705364,871,218,Electronics,3,313.47,72.51,San Jose
+2023-12-08,1497,Matthew,Butler,gracemeyer@example.com,4249997121,872,300,Beauty,7,1437.92,69.71,San Antonio
+2024-08-26,1634,Ashley,Washington,daytonya@example.org,6999159025,873,196,Beauty,9,537.54,3.22,Phoenix
+2023-11-09,1588,Matthew,Carlson,handerson@example.net,7834852797,874,356,Clothing,4,1475.72,71.78,Dallas
+2024-01-24,1216,Nicole,Jones,williamvazquez@example.org,6152591851,875,335,Sports,5,1220.17,0.06,Phoenix
+2024-01-17,1640,Courtney,Martin,cevans@example.net,0551250248,876,157,Groceries,8,78.64,68.53,Los Angeles
+2024-06-18,1995,Douglas,Allen,brittanyphillips@example.net,8917658800,877,352,Electronics,5,1226.35,27.52,San Diego
+2024-03-25,1382,Michael,Sparks,hklein@example.org,0458745762,878,235,Groceries,8,1448.44,16.74,New York
+2024-03-08,1378,Daniel,Martinez,mwilkinson@example.com,7589898369,879,125,Groceries,6,395.75,52.43,Philadelphia
+2024-05-02,1482,Cristian,Cooper,hjohnson@example.com,2333964315,880,139,Furniture,7,303.52,40.98,Houston
+2024-04-09,1734,Amanda,Diaz,zacharysullivan@example.org,5330059029,881,337,Furniture,1,308.64,88.98,Philadelphia
+2024-09-12,1110,Angela,Munoz,brandonwalker@example.org,2304584239,882,340,Groceries,4,373.34,70.37,Dallas
+2024-04-21,1146,Alexandra,Rose,troy44@example.com,0623317875,883,205,Groceries,9,1103.18,64.94,San Jose
+2023-12-31,1379,Alicia,Jackson,thomas57@example.com,0712574382,884,435,Sports,9,15.81,79.7,Philadelphia
+2023-12-24,1462,Jennifer,Medina,pricematthew@example.org,1618627569,885,386,Furniture,7,296.88,61.26,San Antonio
+2024-03-07,1912,Laura,Rose,morgananthony@example.org,6286831761,886,248,Beauty,8,935.73,4.86,Philadelphia
+2024-08-06,1045,Jasmine,Johnson,franklinthomas@example.net,3775251357,887,118,Groceries,1,708.23,68.03,San Diego
+2024-05-17,1700,Michael,Bates,andersonrandy@example.net,2012139913,888,378,Groceries,2,328.59,72.78,Los Angeles
+2024-09-21,1298,George,Clark,josephgreene@example.net,4346989037,889,109,Toys,8,870.58,74.7,Phoenix
+2024-04-06,1908,Sophia,Sandoval,james61@example.com,1367893534,890,242,Groceries,1,487.77,0.46,Houston
+2024-05-11,1701,Christopher,Vega,alexandersmith@example.com,8348139280,891,441,Clothing,2,471.05,28.97,San Jose
+2024-09-18,1015,John,Blake,kylephillips@example.org,3793429061,892,148,Beauty,6,809.94,56.32,Phoenix
+2023-11-23,1599,Robert,Davenport,kellysalazar@example.com,0471308173,893,408,Beauty,5,506.83,56.81,Chicago
+2024-08-05,1128,Lauren,Adams,brian21@example.org,9026735855,894,198,Clothing,8,891.04,75.42,Phoenix
+2024-03-08,1946,Christine,Vargas,petersonkaren@example.net,1748079119,895,368,Books,8,887.07,59.49,Houston
+2024-06-26,1389,Bradley,Hanna,allenamanda@example.org,8242068434,896,310,Clothing,3,1345.02,56.6,San Antonio
+2024-07-21,1433,Miranda,Pittman,amylee@example.com,2755364346,897,209,Toys,1,1463.21,37.71,Phoenix
+2024-05-23,1171,Emily,Thomas,manningcindy@example.com,5896461227,898,332,Electronics,8,1379.84,40.16,San Diego
+2023-12-30,1140,Andrew,Ford,ralphgonzalez@example.org,7009771871,899,369,Clothing,4,899.28,18.65,San Antonio
+2024-02-09,1864,Rachel,Gregory,jenningswilliam@example.com,4911928591,900,236,Toys,7,582.16,38.83,Philadelphia
+2024-07-16,1456,Shelly,Wilkinson,cartercandice@example.net,0296855884,901,288,Electronics,4,276.96,48.53,Los Angeles
+2024-05-07,1210,Susan,Young,bowmanann@example.com,9386598527,902,399,Groceries,9,952.88,25.5,Phoenix
+2023-11-25,1150,Michael,Gray,wclements@example.com,3208930233,903,168,Groceries,6,547.47,12.55,Dallas
+2024-06-18,1845,Steve,Johnson,diane00@example.org,2909940678,904,443,Furniture,2,1142.78,49.07,Los Angeles
+2024-09-04,1497,Jessica,Gomez,wayne75@example.org,3526985936,905,389,Sports,1,421.34,49.31,Los Angeles
+2024-06-01,1224,David,Marquez,hoodheidi@example.net,5600205059,906,208,Groceries,4,1251.89,70.8,Chicago
+2023-10-11,1935,Virginia,Wise,ashleychristian@example.com,1341067714,907,421,Sports,7,1028.77,76.52,New York
+2024-09-22,1107,Tyler,Peters,erinbarnes@example.net,0591414664,908,474,Electronics,7,1018.31,67.56,Los Angeles
+2023-11-02,1173,Joseph,Ortiz,carlwilliams@example.com,9073214665,909,277,Beauty,1,23.08,66.23,Philadelphia
+2023-12-27,1986,Catherine,Fischer,ygraham@example.net,8361026062,910,102,Electronics,6,976.21,19.14,San Antonio
+2023-11-14,1155,Michael,Richards,matthew63@example.org,1541103795,911,109,Toys,4,84.18,63.86,Dallas
+2024-01-04,1742,Timothy,Berger,andersoncynthia@example.net,6180259731,912,294,Beauty,8,1310.55,77.92,San Diego
+2024-09-07,1161,Peter,Robles,anitabrewer@example.com,3084718894,913,216,Furniture,1,560.1,33.03,San Antonio
+2024-05-05,1818,Veronica,Li,robertgraham@example.net,5534810589,914,306,Beauty,7,1155.09,38.86,San Jose
+2024-07-07,1695,Bradley,Barrett,johnwhite@example.com,3240354501,915,153,Beauty,8,1396.39,55.05,New York
+2024-09-19,1266,Mathew,Garner,garnercheryl@example.com,4035236925,916,321,Groceries,1,918.19,57.59,Dallas
+2024-03-08,1133,Raymond,Wall,jessicagarcia@example.com,5950904240,917,327,Books,9,690.87,77.05,Philadelphia
+2024-07-18,1738,Victoria,Moran,kathywhite@example.org,3530994064,918,184,Sports,1,662.15,71.81,San Antonio
+2024-01-10,1890,Jennifer,Sanchez,joshuaholland@example.org,0775282093,919,172,Electronics,8,85.45,67.11,Houston
+2024-08-12,1987,Jessica,Patel,aramos@example.com,2087834988,920,120,Toys,7,1335.44,21.78,San Jose
+2024-04-15,1655,Daniel,Hoffman,jennifer63@example.com,9679455407,921,171,Books,7,1053.94,63.98,San Diego
+2024-01-09,1262,Jerry,Park,hcoleman@example.net,7081545810,922,217,Groceries,5,444.41,56.36,Dallas
+2024-07-27,1900,Lisa,Booth,veronica05@example.net,6316021229,923,178,Furniture,4,1060.93,51.16,San Antonio
+2024-06-14,1444,Angela,Floyd,michaelpalmer@example.net,9833537041,924,449,Furniture,4,151.82,89.91,San Diego
+2023-11-10,1384,Andrea,Hickman,amber47@example.net,5181656661,925,493,Books,6,1165.59,39.92,San Antonio
+2024-09-14,1498,Becky,Hart,cindy19@example.org,3830203996,926,158,Sports,3,41.82,30.99,Houston
+2024-06-11,1412,Cynthia,Bell,qadams@example.org,9354156883,927,262,Groceries,1,1219.13,31.37,Phoenix
+2024-06-20,1449,Steven,Ramirez,collinswilliam@example.net,0073859543,928,163,Clothing,5,459.34,88.19,San Antonio
+2024-04-27,1357,Brittany,Beck,englishjenna@example.org,1896019800,929,375,Sports,4,1449.44,18.4,Houston
+2024-07-09,1499,Kathleen,Moore,hhines@example.net,4662276848,930,454,Books,1,43.17,33.97,San Diego
+2024-03-03,1770,Christina,Carter,ramseykenneth@example.com,2935459816,931,386,Groceries,6,227.75,8.93,New York
+2023-11-07,1757,Tonya,Henderson,michelle47@example.org,5260628627,932,279,Furniture,6,1479.95,74.61,Dallas
+2023-11-08,1148,Anna,Pierce,samantha24@example.net,7272423153,933,191,Books,2,1278.72,38.07,Los Angeles
+2024-09-14,1509,Christopher,Mclaughlin,robertfitzpatrick@example.com,4927422882,934,218,Groceries,4,907.2,0.22,Philadelphia
+2024-08-16,1497,James,Caldwell,gherring@example.com,1622507094,935,380,Sports,8,1254.62,78.71,Houston
+2023-12-07,1138,Marcus,Bryant,acoffey@example.org,6590082473,936,217,Toys,5,1155.61,17.53,San Antonio
+2024-04-04,1118,Christian,Robinson,stricklandkimberly@example.org,3536248437,937,234,Furniture,8,1047.46,53.48,New York
+2024-04-17,1718,Riley,Dodson,holly80@example.com,0574748275,938,472,Clothing,2,823.19,75.66,Houston
+2023-11-11,1561,Gina,Hansen,qsullivan@example.org,2788813670,939,138,Sports,5,643.47,47.92,San Jose
+2024-04-25,1797,Brian,Richards,kristen91@example.net,7228421278,940,240,Electronics,5,916.17,37.47,Dallas
+2024-01-28,1794,Kathleen,Adams,wesleyjames@example.com,6299173923,941,232,Sports,6,1214.0,82.91,Philadelphia
+2023-12-01,1562,Scott,Mcclure,samanthamcconnell@example.org,7654941949,942,396,Books,2,1475.81,14.75,Phoenix
+2024-08-24,1134,Michael,Carter,turnerandrew@example.com,8596887594,943,196,Electronics,2,1411.55,27.52,Houston
+2023-09-28,1790,Jay,Bautista,sthompson@example.com,8546389817,944,396,Clothing,1,1359.76,63.93,San Antonio
+2024-03-23,1304,Jessica,Johnson,caitlincaldwell@example.org,4348764755,945,241,Groceries,8,1259.07,35.82,Phoenix
+2024-01-04,1259,Ronald,Trevino,kevinkirk@example.net,8960448504,946,339,Toys,5,477.45,74.32,Philadelphia
+2024-08-27,1284,Vanessa,Lopez,troy64@example.com,9717404019,947,277,Electronics,6,1239.6,19.18,San Antonio
+2024-08-04,1159,Jennifer,Young,cathy90@example.org,1920757843,948,488,Sports,6,1186.08,35.93,Houston
+2024-04-05,1782,Emily,Jimenez,matthewturner@example.org,8522116045,949,413,Groceries,4,24.27,15.69,Phoenix
+2024-08-11,1161,Brian,Hart,ohendricks@example.net,5540671522,950,322,Groceries,8,434.91,58.66,Philadelphia
+2023-12-17,1839,Julie,Poole,davistyler@example.net,2379558005,951,203,Toys,8,715.37,82.89,Los Angeles
+2024-03-02,1600,Kathy,Gardner,rodneyharris@example.net,8366654470,952,272,Groceries,3,181.11,45.55,Houston
+2023-11-19,1465,Amanda,Ramos,phillipmartin@example.com,3503324448,953,202,Sports,4,1238.52,80.52,Chicago
+2024-02-19,1584,John,Johnson,nicholasstark@example.org,9974673582,954,216,Clothing,4,989.55,77.21,Los Angeles
+2024-04-04,1224,Samantha,Lester,kellysmith@example.net,8447108588,955,280,Toys,5,90.67,39.04,Chicago
+2024-06-20,1621,Gary,Anderson,jamiebaker@example.org,9553147619,956,451,Beauty,7,671.39,85.17,Houston
+2023-12-19,1617,Mary,Myers,jesse07@example.org,8763301425,957,116,Books,3,394.7,78.58,New York
+2023-12-11,1945,Brandon,Hubbard,feliciamiller@example.com,8140161698,958,411,Clothing,5,1360.58,16.6,Los Angeles
+2024-05-20,1226,Johnny,Fields,cjenkins@example.com,6284147487,959,189,Toys,3,1335.75,82.22,San Diego
+2024-03-09,1309,Jamie,Dunn,david96@example.com,2830774229,960,312,Electronics,6,368.85,79.76,Dallas
+2024-07-09,1231,Michelle,Davidson,plynch@example.org,8169321732,961,427,Groceries,9,365.51,81.35,San Diego
+2024-01-28,1561,Jacob,Taylor,laurathomas@example.com,7969976063,962,380,Toys,1,79.41,65.4,San Jose
+2023-10-23,1290,Matthew,Fisher,teresameyer@example.net,2890166439,963,257,Electronics,7,1433.49,66.94,New York
+2023-09-28,1818,Vicki,Morgan,christopherbender@example.org,3301127096,964,230,Beauty,5,477.26,51.45,San Jose
+2024-05-22,1057,Anne,Cook,kaylaschultz@example.net,6174489514,965,305,Beauty,6,774.34,6.87,New York
+2023-10-24,1310,Cole,Padilla,mcbridesusan@example.org,5720885032,966,339,Books,7,323.43,32.72,San Jose
+2023-10-14,1050,Kenneth,Woods,vorozco@example.net,0015613113,967,119,Groceries,7,200.23,74.72,Dallas
+2024-06-21,1881,Jackson,Brewer,pamelajones@example.com,8565445379,968,320,Groceries,8,806.86,72.62,Chicago
+2024-05-24,1076,Brandon,Schmidt,timothycarey@example.com,2221141186,969,441,Electronics,5,565.11,52.29,San Diego
+2023-11-25,1280,Douglas,Nielsen,amanda72@example.com,3079038648,970,374,Electronics,8,262.76,15.74,Chicago
+2024-02-15,1843,Bryan,Leonard,ynguyen@example.com,4535296604,971,486,Groceries,9,631.34,6.65,Houston
+2024-05-31,1047,Terri,Garcia,irobinson@example.org,4023436008,972,265,Sports,3,215.03,63.17,Chicago
+2024-01-30,1520,Abigail,Zhang,paceadriana@example.org,3352129692,973,349,Books,1,689.43,56.35,San Diego
+2024-09-13,1840,Alyssa,Steele,vincentblackwell@example.net,9031056243,974,149,Toys,3,1116.3,88.87,Dallas
+2024-02-11,1274,Aaron,Conner,sriggs@example.com,7315527090,975,324,Furniture,7,236.53,2.13,Los Angeles
+2024-03-25,1943,Tyler,Smith,lauren44@example.net,8590617818,976,226,Sports,5,89.42,74.83,New York
+2024-04-03,1411,Gregory,Roth,timothy52@example.net,5846239739,977,422,Sports,5,183.05,38.9,Houston
+2024-06-24,1879,Julian,Palmer,orivas@example.com,1067989801,978,163,Toys,7,87.17,54.11,San Antonio
+2024-04-24,1121,Jamie,Colon,grahammelissa@example.org,3344799403,979,292,Electronics,4,240.71,75.27,New York
+2024-01-25,1233,Matthew,Smith,russellleonard@example.org,7976724315,980,132,Beauty,7,38.32,75.23,New York
+2024-08-29,1568,Lee,Wilson,ksanchez@example.org,5702146784,981,131,Beauty,5,39.3,53.82,San Antonio
+2024-03-07,1148,Mike,Washington,andrew44@example.com,9494461314,982,386,Clothing,9,359.82,66.89,Phoenix
+2023-11-08,1076,James,Young,ryanwright@example.com,1144088733,983,415,Electronics,8,585.76,13.25,Dallas
+2024-06-07,1538,Ashley,Smith,ryanmarquez@example.net,3670457302,984,231,Sports,2,1112.02,45.93,Dallas
+2024-09-08,1192,Ashley,Gilbert,stanley53@example.org,6215719865,985,188,Furniture,3,964.97,65.36,Dallas
+2023-12-17,1260,Natasha,Booth,spencerjames@example.net,1651458981,986,454,Sports,5,1471.28,29.02,Philadelphia
+2024-08-05,1243,Andrew,Luna,salinaswilliam@example.org,3161409526,987,270,Furniture,1,462.95,89.78,New York
+2024-09-18,1114,Shane,Lang,mgonzales@example.net,2537182797,988,261,Furniture,6,1494.76,85.21,Philadelphia
+2024-04-22,1997,Ryan,Hawkins,jocelyn84@example.net,5522724921,989,217,Books,2,1456.32,50.99,Phoenix
+2024-04-11,1570,John,Jensen,lawsonnathan@example.org,8698061910,990,171,Toys,3,456.02,9.08,San Diego
+2024-02-10,1409,Jennifer,Thomas,royjoel@example.com,9719629818,991,465,Clothing,5,1457.47,16.01,San Jose
+2024-01-10,1244,Michelle,Robinson,xscott@example.com,5264301839,992,252,Electronics,1,840.26,71.69,San Diego
+2024-09-14,1738,Frank,Chandler,omiller@example.net,4197508027,993,471,Electronics,9,358.99,48.9,Chicago
+2024-02-08,1342,Matthew,Shaffer,louis54@example.com,3993582275,994,250,Furniture,9,745.72,29.27,San Diego
+2024-04-15,1858,Carolyn,Martin,owensamber@example.net,8293190211,995,417,Electronics,2,433.16,30.49,Philadelphia
+2023-12-23,1972,Matthew,Williams,carolynbowen@example.org,4993814551,996,310,Books,4,1097.23,32.64,Phoenix
+2023-11-27,1563,April,Bates,felicia60@example.net,7354272063,997,211,Beauty,5,110.62,88.6,Dallas
+2023-12-07,1364,Nancy,Sweeney,rhodesdaniel@example.com,9453341617,998,401,Toys,4,490.47,51.39,Philadelphia
+2024-06-06,1560,Timothy,Allen,shellycollins@example.com,5963163431,999,215,Clothing,2,1092.01,82.2,San Jose
+2023-10-31,1118,Kimberly,Martin,gestrada@example.org,3370405159,1000,450,Sports,7,628.92,6.91,Los Angeles
